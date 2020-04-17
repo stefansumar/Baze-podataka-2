@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="7BC8AE1F-8361-93A8-A8D2-9128240088B9" containerWithKeyObject="ECF133D4-BEF0-8034-13EF-DC434016026C" localFKIndex="5FE80010-9B34-4A85-3D13-3A8DB33D3C1C" name="Karta_Ceker_FK">
+<createdBy>2</createdBy>
+<createdTime>2020-01-28 22:55:32 UTC</createdTime>
+<generatorID>5E913E48-8902-BE40-389D-86DACD2ECA7E</generatorID>
+<ownerDesignName>festival</ownerDesignName>
+<referredTableLongName>Ceker</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>F47D259C-E0F9-A8C0-9E3E-5A7E88A47BBA</referredTableID>
+<keyObject>C51596DC-82AC-3286-625C-83EEEF99147E</keyObject>
+<referredKeyID>C51596DC-82AC-3286-625C-83EEEF99147E</referredKeyID>
+<mandatory>false</mandatory>
+<refColNames>JMBG</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

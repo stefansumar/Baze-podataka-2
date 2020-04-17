@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="ImaUgovor1" directorySegmentName="seg_0" id="11D17741-9379-F6B1-254C-A7CF1920A9F3">
+<createdBy>2</createdBy>
+<createdTime>2020-01-28 04:53:51 UTC</createdTime>
+<ownerDesignName>festival</ownerDesignName>
+<engineerTo>
+<item key="F7F15870-3367-99B8-28EF-2189D35119CC" value="true"/>
+</engineerTo>
+<sourcePk>85E50301-EAEF-4841-A13F-A1E7D400FADD</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>33D399B0-DB87-5088-6B6C-078C947EF168</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>20F24100-F0EA-FE28-84CF-706D78940617</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

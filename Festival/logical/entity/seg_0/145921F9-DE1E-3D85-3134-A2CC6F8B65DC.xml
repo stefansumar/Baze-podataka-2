@@ -1,0 +1,119 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="145921F9-DE1E-3D85-3134-A2CC6F8B65DC" name="Backstage">
+<createdBy>2</createdBy>
+<createdTime>2020-01-28 04:42:27 UTC</createdTime>
+<ownerDesignName>festival</ownerDesignName>
+<engineerTo>
+<item key="F7F15870-3367-99B8-28EF-2189D35119CC" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="SIF_BS" id="D67DF935-19CE-0C3F-285B-33241DC91F13">
+<createdBy>2</createdBy>
+<createdTime>2020-01-28 04:42:38 UTC</createdTime>
+<ownerDesignName>festival</ownerDesignName>
+<engineerTo>
+<item key="F7F15870-3367-99B8-28EF-2189D35119CC" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="KAP_BS" id="B4A34E4F-C11A-EEB2-DA1E-13DBD3640345">
+<createdBy>2</createdBy>
+<createdTime>2020-01-28 04:42:48 UTC</createdTime>
+<ownerDesignName>festival</ownerDesignName>
+<engineerTo>
+<item key="F7F15870-3367-99B8-28EF-2189D35119CC" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="SIF_BIN" id="7320A40F-3430-2AEB-D13F-A1AC65869561">
+<createdBy>2</createdBy>
+<createdTime>2020-01-28 04:48:30 UTC</createdTime>
+<generatorID>4E940A23-BFD5-273F-4C90-BFFBD1B5F83F</generatorID>
+<ownerDesignName>festival</ownerDesignName>
+<engineerTo>
+<item key="F7F15870-3367-99B8-28EF-2189D35119CC" value="true"/>
+</engineerTo>
+<referedAttribute>5CA32FBA-C50E-A547-EAF6-5F5EA897EA8C</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="SIF_ZON" id="25A9A3C9-DAD4-969D-F53E-A901828481AC">
+<createdBy>2</createdBy>
+<createdTime>2020-01-28 04:48:30 UTC</createdTime>
+<generatorID>4E940A23-BFD5-273F-4C90-BFFBD1B5F83F</generatorID>
+<ownerDesignName>festival</ownerDesignName>
+<engineerTo>
+<item key="F7F15870-3367-99B8-28EF-2189D35119CC" value="true"/>
+</engineerTo>
+<referedAttribute>EC55D04E-CBF2-4A6B-B61E-75CC2E1C8EDA</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_RF" id="A41B433C-7757-ECEE-7BE2-3D377F806AC8">
+<createdBy>2</createdBy>
+<createdTime>2020-01-28 04:48:30 UTC</createdTime>
+<generatorID>4E940A23-BFD5-273F-4C90-BFFBD1B5F83F</generatorID>
+<ownerDesignName>festival</ownerDesignName>
+<engineerTo>
+<item key="F7F15870-3367-99B8-28EF-2189D35119CC" value="true"/>
+</engineerTo>
+<referedAttribute>A38FD8F9-96A6-F1F5-92F7-6374D8923EDC</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="OZN_FES" id="9127470A-B3AA-FDC4-A709-A0EA9FE3B8E5">
+<createdBy>2</createdBy>
+<createdTime>2020-01-28 04:48:30 UTC</createdTime>
+<generatorID>4E940A23-BFD5-273F-4C90-BFFBD1B5F83F</generatorID>
+<ownerDesignName>festival</ownerDesignName>
+<engineerTo>
+<item key="F7F15870-3367-99B8-28EF-2189D35119CC" value="true"/>
+</engineerTo>
+<referedAttribute>D18D9D23-917D-BD7B-2F63-B86BBFC4D069</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="3A1C9C78-98C2-3D20-E90C-32E17F7E513B" name="Backstage PK">
+<createdBy>2</createdBy>
+<createdTime>2020-01-28 04:42:47 UTC</createdTime>
+<ownerDesignName>festival</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="F7F15870-3367-99B8-28EF-2189D35119CC" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>D67DF935-19CE-0C3F-285B-33241DC91F13</attributeRef>
+<attributeRef>7320A40F-3430-2AEB-D13F-A1AC65869561</attributeRef>
+<attributeRef>25A9A3C9-DAD4-969D-F53E-A901828481AC</attributeRef>
+<attributeRef>A41B433C-7757-ECEE-7BE2-3D377F806AC8</attributeRef>
+<attributeRef>9127470A-B3AA-FDC4-A709-A0EA9FE3B8E5</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="15E429B7-9AB3-4CF0-DCAB-1313957A79EE" containerWithKeyObject="F47D259C-E0F9-A8C0-9E3E-5A7E88A47BBA" localFKIndex="65CA78D0-4EBA-5041-B6A0-23FB0D437515" name="Ceker_Ulaz_FK">
+<createdBy>2</createdBy>
+<createdTime>2020-01-28 22:55:32 UTC</createdTime>
+<generatorID>850142CC-0C5B-4727-D189-7FFBAC7FB4B8</generatorID>
+<ownerDesignName>festival</ownerDesignName>
+<referredTableLongName>Ulaz</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>DDA2686D-C25D-0FFD-B8C5-28A7FB827852</referredTableID>
+<keyObject>9F5CE309-ABDB-9795-594C-8AF83C1DB0A9</keyObject>
+<referredKeyID>9F5CE309-ABDB-9795-594C-8AF83C1DB0A9</referredKeyID>
+<mandatory>false</mandatory>
+<refColNames>SIF_ULZ,Rf_ID_RF,Rf_Fl_OZN_FES</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

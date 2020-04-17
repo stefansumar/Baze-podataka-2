@@ -1,0 +1,83 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="2A79C4AB-5F52-3FEB-8F71-571A27158271" name="Radnik">
+<createdBy>2</createdBy>
+<createdTime>2020-01-28 22:55:32 UTC</createdTime>
+<generatorID>94B350B2-81D1-8C82-1FED-EC26E7D40410</generatorID>
+<ownerDesignName>festival</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="JMBG" id="9171EED4-DBD0-66FB-0977-3D38F1374983">
+<createdBy>2</createdBy>
+<createdTime>2020-01-28 22:55:32 UTC</createdTime>
+<generatorID>CAB438EB-0E0C-9774-AB61-3556941F18C7</generatorID>
+<ownerDesignName>festival</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="IME_RAD" id="09ADF975-2B96-BE89-F711-61B8EE6BFF76">
+<createdBy>2</createdBy>
+<createdTime>2020-01-28 22:55:32 UTC</createdTime>
+<generatorID>97CB764A-E99F-A446-71C6-D040AE46F1C0</generatorID>
+<ownerDesignName>festival</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PRZ_RAD" id="58F02025-1A6B-FD96-AB86-3E65D4D972B1">
+<createdBy>2</createdBy>
+<createdTime>2020-01-28 22:55:32 UTC</createdTime>
+<generatorID>F2DD3FE7-F8C3-39B3-23E6-001587F521F0</generatorID>
+<ownerDesignName>festival</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TIP_RADNIKA" id="C03E867A-0A9E-1806-5737-FC107862A6B4">
+<createdBy>2</createdBy>
+<createdTime>2020-01-28 22:55:32 UTC</createdTime>
+<generatorID>4EC48C1F-2188-1317-65CF-4612B477E2D4</generatorID>
+<ownerDesignName>festival</ownerDesignName>
+<constraintName>CH_INH_Radnik</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>8</dataTypeSize>
+<domain>1A4DD9D2-A03C-A4FF-8A7F-F740B41F8D06</domain>
+<listOfValues>
+<valueDef value="Ceker" description="entity Ceker"/>
+<valueDef value="Prodavac" description="entity Prodavac"/>
+<valueDef value="Redar" description="entity Redar"/>
+</listOfValues>
+<ownDataTypeParameters>8,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isDiscriminatorColumn>true</isDiscriminatorColumn>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="1EC48E74-09C4-039A-DD69-CE831478C1C3" name="Radnik_PK">
+<createdBy>2</createdBy>
+<createdTime>2020-01-28 22:55:32 UTC</createdTime>
+<generatorID>C545CF51-D5EF-AE75-2678-1F603CDA7A01</generatorID>
+<ownerDesignName>festival</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9171EED4-DBD0-66FB-0977-3D38F1374983"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

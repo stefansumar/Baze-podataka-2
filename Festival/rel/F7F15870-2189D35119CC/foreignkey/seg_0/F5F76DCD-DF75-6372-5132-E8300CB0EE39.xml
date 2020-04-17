@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="F5F76DCD-DF75-6372-5132-E8300CB0EE39" containerWithKeyObject="ECF133D4-BEF0-8034-13EF-DC434016026C" localFKIndex="0C961D49-77AF-6F85-EC01-030D865F650B" name="Karta_Karta_FK">
+<createdBy>2</createdBy>
+<createdTime>2020-01-28 22:55:32 UTC</createdTime>
+<generatorID>6D4C1663-D32A-0986-4871-64923D601459</generatorID>
+<ownerDesignName>festival</ownerDesignName>
+<referredTableLongName>Karta</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>ECF133D4-BEF0-8034-13EF-DC434016026C</referredTableID>
+<keyObject>DAEF9559-18A6-4567-955E-83A93FF9FE0E</keyObject>
+<referredKeyID>DAEF9559-18A6-4567-955E-83A93FF9FE0E</referredKeyID>
+<mandatory>false</mandatory>
+<refColNames>SIF_KAR,Real_ID_RF,Rf_F_OZN_FES</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="E660B455-3FB5-60AF-BD3C-B4BC4DB206B1" containerWithKeyObject="807D6EDF-2AEB-F315-590B-37F89BEC1772" localFKIndex="3DD6ACD8-F2EF-47B4-6E05-83FB68EA94E4" name="Staff_karta_Karta_FK">
+<createdBy>2</createdBy>
+<createdTime>2020-01-28 22:55:32 UTC</createdTime>
+<generatorID>B8D41929-CA90-72A1-5F5F-C099AEE38562</generatorID>
+<ownerDesignName>festival</ownerDesignName>
+<referredTableLongName>Karta</referredTableLongName>
+<arc>7F8B667F-1C0E-0F96-0AEA-5C63940D77E9</arc>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>ECF133D4-BEF0-8034-13EF-DC434016026C</referredTableID>
+<keyObject>DAEF9559-18A6-4567-955E-83A93FF9FE0E</keyObject>
+<referredKeyID>DAEF9559-18A6-4567-955E-83A93FF9FE0E</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>SIF_KAR,Real_ID_RF,Rf_F_OZN_FES</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<discriminatorValue>Staff_karta</discriminatorValue>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

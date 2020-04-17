@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Radi2" directorySegmentName="seg_0" id="05AF9044-C6FB-715F-7C15-026EEC4915D2">
+<createdBy>2</createdBy>
+<createdTime>2020-01-28 03:51:00 UTC</createdTime>
+<ownerDesignName>festival</ownerDesignName>
+<engineerTo>
+<item key="F7F15870-3367-99B8-28EF-2189D35119CC" value="true"/>
+</engineerTo>
+<sourcePk>C545CF51-D5EF-AE75-2678-1F603CDA7A01</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>94B350B2-81D1-8C82-1FED-EC26E7D40410</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>ED6B9156-DEA3-4318-B603-D5BAAD8C76E1</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

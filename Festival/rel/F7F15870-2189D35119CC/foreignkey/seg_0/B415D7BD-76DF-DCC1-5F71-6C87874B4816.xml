@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="B415D7BD-76DF-DCC1-5F71-6C87874B4816" containerWithKeyObject="17B2E041-DB2B-7030-5F30-B4DA3252186C" localFKIndex="7C59F5D8-21A2-BF9C-FBE1-58E7FB413C53" name="Ima_pristup_Backstage_FK">
+<createdBy>2</createdBy>
+<createdTime>2020-01-28 22:55:32 UTC</createdTime>
+<generatorID>AA58B615-C044-FB3D-6031-08034975097F</generatorID>
+<ownerDesignName>festival</ownerDesignName>
+<referredTableLongName>Backstage</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>3A63FE17-8BE0-B9B3-C56C-DA28E22D04B1</referredTableID>
+<keyObject>4B08774B-01A9-07E6-9D29-B5FCB0E8F67D</keyObject>
+<referredKeyID>4B08774B-01A9-07E6-9D29-B5FCB0E8F67D</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>SIF_BS,Bina_SIF_BIN,Bina_Zona_SIF_ZON,Bina_Zona_ID_RF,Bina_Zona_OZN_FES</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,63 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="ED6B9156-DEA3-4318-B603-D5BAAD8C76E1" name="Radi">
+<createdBy>2</createdBy>
+<createdTime>2020-01-28 03:46:46 UTC</createdTime>
+<ownerDesignName>festival</ownerDesignName>
+<engineerTo>
+<item key="F7F15870-3367-99B8-28EF-2189D35119CC" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="OZN_FES" id="C3D3D6A1-CD52-FF02-8AE5-A3C941105323">
+<createdBy>2</createdBy>
+<createdTime>2020-01-28 03:49:05 UTC</createdTime>
+<generatorID>B5E0F20E-81F7-0F5C-4964-799E906FB934</generatorID>
+<ownerDesignName>festival</ownerDesignName>
+<engineerTo>
+<item key="F7F15870-3367-99B8-28EF-2189D35119CC" value="true"/>
+</engineerTo>
+<referedAttribute>C87B98D8-FB3F-9F87-D29A-89C1B85AB3E8</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="JMBG" id="82498222-E992-D954-4404-AB7A21D76D49">
+<createdBy>2</createdBy>
+<createdTime>2020-01-28 03:51:35 UTC</createdTime>
+<generatorID>05AF9044-C6FB-715F-7C15-026EEC4915D2</generatorID>
+<ownerDesignName>festival</ownerDesignName>
+<engineerTo>
+<item key="F7F15870-3367-99B8-28EF-2189D35119CC" value="true"/>
+</engineerTo>
+<referedAttribute>CAB438EB-0E0C-9774-AB61-3556941F18C7</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="FFD5F20D-917E-45F8-4334-ADC05811F7E8" name="Radi PK">
+<createdBy>2</createdBy>
+<createdTime>2020-01-28 03:49:05 UTC</createdTime>
+<ownerDesignName>festival</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="F7F15870-3367-99B8-28EF-2189D35119CC" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>C3D3D6A1-CD52-FF02-8AE5-A3C941105323</attributeRef>
+<attributeRef>82498222-E992-D954-4404-AB7A21D76D49</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

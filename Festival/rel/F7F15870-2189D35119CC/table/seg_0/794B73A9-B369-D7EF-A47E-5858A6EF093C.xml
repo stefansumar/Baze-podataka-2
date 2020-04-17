@@ -1,0 +1,107 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="794B73A9-B369-D7EF-A47E-5858A6EF093C" name="Izvodi_se">
+<createdBy>2</createdBy>
+<createdTime>2020-01-28 22:55:32 UTC</createdTime>
+<ownerDesignName>festival</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Zona_SIF_ZON" id="7F2F1BF8-DA71-789D-D5B7-65445E7D63BC">
+<createdBy>2</createdBy>
+<createdTime>2020-01-28 22:55:32 UTC</createdTime>
+<ownerDesignName>festival</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="FB85A8D8-046F-D2B6-4B85-A3742A815D0B" referredColumn="5A6EBF4A-B604-2388-AFE9-66C48B5D37D5"/>
+</associations>
+</Column>
+<Column name="Zona_ID_RF" id="75A80E0F-79BC-CECC-D534-B4294664FBEF">
+<createdBy>2</createdBy>
+<createdTime>2020-01-28 22:55:32 UTC</createdTime>
+<ownerDesignName>festival</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="FB85A8D8-046F-D2B6-4B85-A3742A815D0B" referredColumn="02DEA67B-5021-391C-233E-8D3DC6464A0B"/>
+</associations>
+</Column>
+<Column name="Zona_OZN_FES" id="4EDF9EDE-F263-BAEB-515C-A5D51AA8D474">
+<createdBy>2</createdBy>
+<createdTime>2020-01-28 22:55:32 UTC</createdTime>
+<ownerDesignName>festival</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="FB85A8D8-046F-D2B6-4B85-A3742A815D0B" referredColumn="A25D02F9-5336-C1E6-8425-49E1B1869481"/>
+</associations>
+</Column>
+<Column name="Zanr_SIF_ZNR" id="E9C678D4-7D1A-EAF9-2FEB-A47E21540724">
+<createdBy>2</createdBy>
+<createdTime>2020-01-28 22:55:32 UTC</createdTime>
+<ownerDesignName>festival</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="38FCE7C5-A435-4F4F-E360-030DF7D06C0E" referredColumn="344B623B-BF1B-B02A-0AB0-081BD2009026"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="9AE80602-D998-A674-D9BB-F5A20B3CD364" name="Izvodi_se_PK">
+<createdBy>2</createdBy>
+<createdTime>2020-01-28 22:55:32 UTC</createdTime>
+<ownerDesignName>festival</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7F2F1BF8-DA71-789D-D5B7-65445E7D63BC"/>
+<colUsage columnID="75A80E0F-79BC-CECC-D534-B4294664FBEF"/>
+<colUsage columnID="4EDF9EDE-F263-BAEB-515C-A5D51AA8D474"/>
+<colUsage columnID="E9C678D4-7D1A-EAF9-2FEB-A47E21540724"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3E32FB3A-D332-74C3-793A-40D7F52A6213" name="Izvodi_se_Zona_FK">
+<createdBy>2</createdBy>
+<createdTime>2020-01-28 22:55:32 UTC</createdTime>
+<generatorID>BEA74FD1-9505-0064-882A-DEDBACB65A22</generatorID>
+<ownerDesignName>festival</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7F2F1BF8-DA71-789D-D5B7-65445E7D63BC"/>
+<colUsage columnID="75A80E0F-79BC-CECC-D534-B4294664FBEF"/>
+<colUsage columnID="4EDF9EDE-F263-BAEB-515C-A5D51AA8D474"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A8CB6A9F-5A7C-4F1C-58EC-26A58C28E6C1" name="Izvodi_se_Zanr_FK">
+<createdBy>2</createdBy>
+<createdTime>2020-01-28 22:55:32 UTC</createdTime>
+<generatorID>BEA74FD1-9505-0064-882A-DEDBACB65A22</generatorID>
+<ownerDesignName>festival</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E9C678D4-7D1A-EAF9-2FEB-A47E21540724"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

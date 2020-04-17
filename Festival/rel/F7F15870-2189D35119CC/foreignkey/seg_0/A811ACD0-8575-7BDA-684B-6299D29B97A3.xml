@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="A811ACD0-8575-7BDA-684B-6299D29B97A3" containerWithKeyObject="D010CFD1-D70A-6359-29F1-DAF7A8B5A8C8" localFKIndex="0B9F11E7-AAF0-DA4F-B6F2-B8B8C1D769B8" name="Prodavac_Nudi_FK">
+<createdBy>2</createdBy>
+<createdTime>2020-01-28 22:55:32 UTC</createdTime>
+<generatorID>8927076D-97DC-C6BF-7ED2-85C8FD8170C8</generatorID>
+<ownerDesignName>festival</ownerDesignName>
+<referredTableLongName>Nudi</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>E8FFA2AB-BC14-6C48-00E5-9394C8960BF3</referredTableID>
+<keyObject>EF3E9F21-E995-2918-F521-ABE3412F918A</keyObject>
+<referredKeyID>EF3E9F21-E995-2918-F521-ABE3412F918A</referredKeyID>
+<mandatory>false</mandatory>
+<refColNames>Stand_SIF_STA,Zona_SIF_ZON,Zona_ID_RF,Zona_OZN_FES</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

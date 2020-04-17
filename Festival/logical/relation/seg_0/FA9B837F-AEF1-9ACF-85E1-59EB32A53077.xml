@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Nastupa" directorySegmentName="seg_0" id="FA9B837F-AEF1-9ACF-85E1-59EB32A53077">
+<createdBy>2</createdBy>
+<createdTime>2020-01-28 04:39:09 UTC</createdTime>
+<ownerDesignName>festival</ownerDesignName>
+<engineerTo>
+<item key="F7F15870-3367-99B8-28EF-2189D35119CC" value="true"/>
+</engineerTo>
+<sourcePk>FACE4C01-67D0-BD99-0D05-DE24860074D6</sourcePk>
+<targetPk>9455695E-07CE-2FA8-FBBC-114A7364A71E</targetPk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>1AECB367-7CD6-2CA7-32DC-6D45266FDEFD</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>7EDDE9EC-1949-AA7A-21EF-B5423CDD8E0F</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

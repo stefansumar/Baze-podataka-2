@@ -1,0 +1,14 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKArc class="oracle.dbtools.crest.model.design.relational.FKArc" directorySegmentName="seg_0" id="7F8B667F-1C0E-0F96-0AEA-5C63940D77E9" name="FKArc_26">
+<createdBy>2</createdBy>
+<createdTime>2020-01-28 22:55:32 UTC</createdTime>
+<ownerDesignName>festival</ownerDesignName>
+<mandatory>false</mandatory>
+<reverseArc>true</reverseArc>
+<table>ECF133D4-BEF0-8034-13EF-DC434016026C</table>
+<discriminatorColumn>60B0750E-5BE4-9CC3-F589-F189DB2214E0</discriminatorColumn>
+<fkeys>
+<fkeyID>8C83214C-8014-F431-AF2D-A15AFE481A86</fkeyID>
+<fkeyID>E660B455-3FB5-60AF-BD3C-B4BC4DB206B1</fkeyID>
+</fkeys>
+</FKArc>

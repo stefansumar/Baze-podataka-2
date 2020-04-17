@@ -1,0 +1,49 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="188C2789-CC83-3ED5-E4BD-EBC8B6EFAC19" name="Poslovni_partner">
+<createdBy>2</createdBy>
+<createdTime>2020-01-28 22:55:32 UTC</createdTime>
+<generatorID>33D399B0-DB87-5088-6B6C-078C947EF168</generatorID>
+<ownerDesignName>festival</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="SIF_PP" id="5F83C46E-78E3-A2B8-A3FD-D7BB32BEC9B0">
+<createdBy>2</createdBy>
+<createdTime>2020-01-28 22:55:32 UTC</createdTime>
+<generatorID>A5D3FF11-A0B5-62F4-AEDA-9FA6142064BA</generatorID>
+<ownerDesignName>festival</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NAZ_PP" id="9C4292C3-388F-7FAB-F2FD-8FE00CEA7B50">
+<createdBy>2</createdBy>
+<createdTime>2020-01-28 22:55:32 UTC</createdTime>
+<generatorID>1765001F-F3CA-B0CA-F027-702737A4646B</generatorID>
+<ownerDesignName>festival</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="8453E292-F38F-F638-D7FF-A67A3D2CCFA7" name="Poslovni_partner_PK">
+<createdBy>2</createdBy>
+<createdTime>2020-01-28 22:55:32 UTC</createdTime>
+<generatorID>85E50301-EAEF-4841-A13F-A1E7D400FADD</generatorID>
+<ownerDesignName>festival</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5F83C46E-78E3-A2B8-A3FD-D7BB32BEC9B0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

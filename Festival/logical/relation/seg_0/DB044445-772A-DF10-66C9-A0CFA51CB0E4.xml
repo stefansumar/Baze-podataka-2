@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Dobija" directorySegmentName="seg_0" id="DB044445-772A-DF10-66C9-A0CFA51CB0E4">
+<createdBy>2</createdBy>
+<createdTime>2020-01-28 21:35:50 UTC</createdTime>
+<ownerDesignName>festival</ownerDesignName>
+<engineerTo>
+<item key="F7F15870-3367-99B8-28EF-2189D35119CC" value="true"/>
+</engineerTo>
+<sourcePk>FFD5F20D-917E-45F8-4334-ADC05811F7E8</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>ED6B9156-DEA3-4318-B603-D5BAAD8C76E1</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>89333D38-88BD-48FF-4558-9FA2EB852BA8</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

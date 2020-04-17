@@ -1,0 +1,141 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D010CFD1-D70A-6359-29F1-DAF7A8B5A8C8" name="Prodavac">
+<createdBy>2</createdBy>
+<createdTime>2020-01-28 22:55:32 UTC</createdTime>
+<generatorID>F755E829-7538-89FD-AADF-C770CA3065FF</generatorID>
+<ownerDesignName>festival</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="JMBG" id="7FBE1121-1090-67DC-9ACE-3C31F5570D86">
+<createdBy>2</createdBy>
+<createdTime>2020-01-28 22:55:32 UTC</createdTime>
+<generatorID>CAB438EB-0E0C-9774-AB61-3556941F18C7</generatorID>
+<ownerDesignName>festival</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="EC673652-30B1-60C4-C82E-FDAF657CA198" referredColumn="9171EED4-DBD0-66FB-0977-3D38F1374983"/>
+</associations>
+</Column>
+<Column name="Nudi_Stand_SIF_STA" id="0C09EFBB-BF20-6BEC-C8B6-CF8C15154124">
+<createdBy>2</createdBy>
+<createdTime>2020-01-28 22:55:32 UTC</createdTime>
+<generatorID>D0EF7A7E-A201-C0D6-E5CE-B6A99F6C13B9</generatorID>
+<ownerDesignName>festival</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A811ACD0-8575-7BDA-684B-6299D29B97A3" referredColumn="175EB4ED-B7F6-6B70-6C00-62B3AE160A57"/>
+</associations>
+</Column>
+<Column name="Nudi_Zona_SIF_ZON" id="33CD75C5-D14E-0FBE-1F25-56E358E7C5BB">
+<createdBy>2</createdBy>
+<createdTime>2020-01-28 22:55:32 UTC</createdTime>
+<generatorID>39B48B8E-1E1B-6480-293D-08859AECA3A9</generatorID>
+<ownerDesignName>festival</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A811ACD0-8575-7BDA-684B-6299D29B97A3" referredColumn="C1BB4D7E-56DA-B193-2341-1B17ADAC7A64"/>
+</associations>
+</Column>
+<Column name="Nudi_Zona_ID_RF" id="C34B4099-63C7-A493-4D54-9BAC68B16D5D">
+<createdBy>2</createdBy>
+<createdTime>2020-01-28 22:55:32 UTC</createdTime>
+<generatorID>3D817864-8876-6E0A-CF47-968C3C76A587</generatorID>
+<ownerDesignName>festival</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A811ACD0-8575-7BDA-684B-6299D29B97A3" referredColumn="09E2CEA2-F42E-B3A1-D4DA-97DDC6A759B3"/>
+</associations>
+</Column>
+<Column name="Nudi_Zona_OZN_FES" id="CEEDB7E4-1FCE-9877-86C2-1E923087BE81">
+<createdBy>2</createdBy>
+<createdTime>2020-01-28 22:55:32 UTC</createdTime>
+<generatorID>5211CDA4-95FE-1D10-23C0-1A1BDC65DC2A</generatorID>
+<ownerDesignName>festival</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A811ACD0-8575-7BDA-684B-6299D29B97A3" referredColumn="5BB0C7DA-629A-1731-99E7-91DF6BAE1D4B"/>
+</associations>
+</Column>
+<Column name="KOL_PRO" id="AF2E5A2B-B416-6468-58CA-AD7B7C2F5C01">
+<createdBy>2</createdBy>
+<createdTime>2020-01-28 22:55:32 UTC</createdTime>
+<generatorID>9F735AE5-3E74-3DA1-63B0-035B9958A522</generatorID>
+<ownerDesignName>festival</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="793305EE-E0FD-8FCD-B296-D6811FEA2DCA" name="Prodavac_PK">
+<createdBy>2</createdBy>
+<createdTime>2020-01-28 22:55:32 UTC</createdTime>
+<generatorID>C545CF51-D5EF-AE75-2678-1F603CDA7A01</generatorID>
+<ownerDesignName>festival</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7FBE1121-1090-67DC-9ACE-3C31F5570D86"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5DF66F93-D573-EF5B-0BA4-0B6D1051A9AA" name="Prodavac_Radnik_FK">
+<createdBy>2</createdBy>
+<createdTime>2020-01-28 22:55:32 UTC</createdTime>
+<generatorID>833C9A24-E05F-3DB2-85AC-67CD255527BA</generatorID>
+<ownerDesignName>festival</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7FBE1121-1090-67DC-9ACE-3C31F5570D86"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0B9F11E7-AAF0-DA4F-B6F2-B8B8C1D769B8" name="Prodavac_Nudi_FK">
+<createdBy>2</createdBy>
+<createdTime>2020-01-28 22:55:32 UTC</createdTime>
+<generatorID>8927076D-97DC-C6BF-7ED2-85C8FD8170C8</generatorID>
+<ownerDesignName>festival</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0C09EFBB-BF20-6BEC-C8B6-CF8C15154124"/>
+<colUsage columnID="33CD75C5-D14E-0FBE-1F25-56E358E7C5BB"/>
+<colUsage columnID="C34B4099-63C7-A493-4D54-9BAC68B16D5D"/>
+<colUsage columnID="CEEDB7E4-1FCE-9877-86C2-1E923087BE81"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

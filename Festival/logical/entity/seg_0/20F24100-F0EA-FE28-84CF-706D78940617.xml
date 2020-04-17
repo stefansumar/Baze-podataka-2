@@ -1,0 +1,91 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="20F24100-F0EA-FE28-84CF-706D78940617" name="Ima_ugovor">
+<createdBy>2</createdBy>
+<createdTime>2020-01-28 04:53:26 UTC</createdTime>
+<ownerDesignName>festival</ownerDesignName>
+<engineerTo>
+<item key="F7F15870-3367-99B8-28EF-2189D35119CC" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="DAT_SU" id="673122B8-7104-A555-C8C5-718F5AE555AE">
+<createdBy>2</createdBy>
+<createdTime>2020-01-28 04:53:39 UTC</createdTime>
+<ownerDesignName>festival</ownerDesignName>
+<engineerTo>
+<item key="F7F15870-3367-99B8-28EF-2189D35119CC" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="SIF_PP" id="FBAB5E25-12D0-3BCA-566D-031152E79589">
+<createdBy>2</createdBy>
+<createdTime>2020-01-28 04:54:03 UTC</createdTime>
+<generatorID>11D17741-9379-F6B1-254C-A7CF1920A9F3</generatorID>
+<ownerDesignName>festival</ownerDesignName>
+<engineerTo>
+<item key="F7F15870-3367-99B8-28EF-2189D35119CC" value="true"/>
+</engineerTo>
+<referedAttribute>A5D3FF11-A0B5-62F4-AEDA-9FA6142064BA</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_RF" id="AF61F690-5082-8D2D-1574-155225A4737A">
+<createdBy>2</createdBy>
+<createdTime>2020-01-28 04:55:53 UTC</createdTime>
+<generatorID>28DA196E-A5F6-9D9C-E162-5031CC72DF65</generatorID>
+<ownerDesignName>festival</ownerDesignName>
+<engineerTo>
+<item key="F7F15870-3367-99B8-28EF-2189D35119CC" value="true"/>
+</engineerTo>
+<referedAttribute>5D389F1E-DF84-1361-40FB-09AB35CBC0DB</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="OZN_FES" id="4098788F-9EC5-2E51-D80A-A4FC952324D2">
+<createdBy>2</createdBy>
+<createdTime>2020-01-28 04:55:53 UTC</createdTime>
+<generatorID>28DA196E-A5F6-9D9C-E162-5031CC72DF65</generatorID>
+<ownerDesignName>festival</ownerDesignName>
+<engineerTo>
+<item key="F7F15870-3367-99B8-28EF-2189D35119CC" value="true"/>
+</engineerTo>
+<referedAttribute>E62D3199-93AA-F9D5-9D21-B399B8714135</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="E772CD9B-EB56-6B46-74B9-A1D77FF22B98" name="Ima_ugovor PK">
+<createdBy>2</createdBy>
+<createdTime>2020-01-28 04:57:28 UTC</createdTime>
+<ownerDesignName>festival</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="F7F15870-3367-99B8-28EF-2189D35119CC" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>AF61F690-5082-8D2D-1574-155225A4737A</attributeRef>
+<attributeRef>4098788F-9EC5-2E51-D80A-A4FC952324D2</attributeRef>
+<attributeRef>FBAB5E25-12D0-3BCA-566D-031152E79589</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,93 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="F755E829-7538-89FD-AADF-C770CA3065FF" name="Prodavac">
+<createdBy>2</createdBy>
+<createdTime>2020-01-28 21:16:45 UTC</createdTime>
+<ownerDesignName>festival</ownerDesignName>
+<engineerTo>
+<item key="F7F15870-3367-99B8-28EF-2189D35119CC" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<hierarchicalParent>94B350B2-81D1-8C82-1FED-EC26E7D40410</hierarchicalParent>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="SIF_STA" id="D0EF7A7E-A201-C0D6-E5CE-B6A99F6C13B9">
+<createdBy>2</createdBy>
+<createdTime>2020-01-28 21:26:12 UTC</createdTime>
+<generatorID>8927076D-97DC-C6BF-7ED2-85C8FD8170C8</generatorID>
+<ownerDesignName>festival</ownerDesignName>
+<engineerTo>
+<item key="F7F15870-3367-99B8-28EF-2189D35119CC" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>5F833161-9359-C38A-E12E-B3C4E3B77E46</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="SIF_ZON" id="39B48B8E-1E1B-6480-293D-08859AECA3A9">
+<createdBy>2</createdBy>
+<createdTime>2020-01-28 21:26:12 UTC</createdTime>
+<generatorID>8927076D-97DC-C6BF-7ED2-85C8FD8170C8</generatorID>
+<ownerDesignName>festival</ownerDesignName>
+<engineerTo>
+<item key="F7F15870-3367-99B8-28EF-2189D35119CC" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>413E6221-67D0-CAB9-79F4-7067FCDACA56</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_RF" id="3D817864-8876-6E0A-CF47-968C3C76A587">
+<createdBy>2</createdBy>
+<createdTime>2020-01-28 21:26:12 UTC</createdTime>
+<generatorID>8927076D-97DC-C6BF-7ED2-85C8FD8170C8</generatorID>
+<ownerDesignName>festival</ownerDesignName>
+<engineerTo>
+<item key="F7F15870-3367-99B8-28EF-2189D35119CC" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>1D18F077-77E5-B9FD-37E1-C467F3BFE23C</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="OZN_FES" id="5211CDA4-95FE-1D10-23C0-1A1BDC65DC2A">
+<createdBy>2</createdBy>
+<createdTime>2020-01-28 21:26:12 UTC</createdTime>
+<generatorID>8927076D-97DC-C6BF-7ED2-85C8FD8170C8</generatorID>
+<ownerDesignName>festival</ownerDesignName>
+<engineerTo>
+<item key="F7F15870-3367-99B8-28EF-2189D35119CC" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>4618B637-EED8-E5A7-C6B6-F9C2610C51F7</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="KOL_PRO" id="9F735AE5-3E74-3DA1-63B0-035B9958A522">
+<createdBy>2</createdBy>
+<createdTime>2020-01-28 21:26:29 UTC</createdTime>
+<ownerDesignName>festival</ownerDesignName>
+<engineerTo>
+<item key="F7F15870-3367-99B8-28EF-2189D35119CC" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

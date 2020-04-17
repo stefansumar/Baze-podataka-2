@@ -1,0 +1,93 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="259F688D-0F1F-F54C-AB72-6AD497766174" name="Nudi">
+<createdBy>2</createdBy>
+<createdTime>2020-01-28 05:00:23 UTC</createdTime>
+<ownerDesignName>festival</ownerDesignName>
+<engineerTo>
+<item key="F7F15870-3367-99B8-28EF-2189D35119CC" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="SIF_STA" id="5F833161-9359-C38A-E12E-B3C4E3B77E46">
+<createdBy>2</createdBy>
+<createdTime>2020-01-28 05:02:33 UTC</createdTime>
+<generatorID>C7623D51-E712-DBF3-178B-F89489B56A97</generatorID>
+<ownerDesignName>festival</ownerDesignName>
+<engineerTo>
+<item key="F7F15870-3367-99B8-28EF-2189D35119CC" value="true"/>
+</engineerTo>
+<referedAttribute>54CFA4D5-3906-A39E-7899-5BBC1C3BF7EF</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="SIF_ZON" id="413E6221-67D0-CAB9-79F4-7067FCDACA56">
+<createdBy>2</createdBy>
+<createdTime>2020-01-28 05:03:02 UTC</createdTime>
+<generatorID>E48A9967-7297-D03E-33CD-8F4E432B71AD</generatorID>
+<ownerDesignName>festival</ownerDesignName>
+<engineerTo>
+<item key="F7F15870-3367-99B8-28EF-2189D35119CC" value="true"/>
+</engineerTo>
+<referedAttribute>EC5085A9-0928-7F8E-244C-0926E48DA2D1</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_RF" id="1D18F077-77E5-B9FD-37E1-C467F3BFE23C">
+<createdBy>2</createdBy>
+<createdTime>2020-01-28 05:03:02 UTC</createdTime>
+<generatorID>E48A9967-7297-D03E-33CD-8F4E432B71AD</generatorID>
+<ownerDesignName>festival</ownerDesignName>
+<engineerTo>
+<item key="F7F15870-3367-99B8-28EF-2189D35119CC" value="true"/>
+</engineerTo>
+<referedAttribute>698B443F-11F2-887D-F8CC-C00A00B73830</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="OZN_FES" id="4618B637-EED8-E5A7-C6B6-F9C2610C51F7">
+<createdBy>2</createdBy>
+<createdTime>2020-01-28 05:03:02 UTC</createdTime>
+<generatorID>E48A9967-7297-D03E-33CD-8F4E432B71AD</generatorID>
+<ownerDesignName>festival</ownerDesignName>
+<engineerTo>
+<item key="F7F15870-3367-99B8-28EF-2189D35119CC" value="true"/>
+</engineerTo>
+<referedAttribute>71B04411-0117-7AEC-6F6B-F64EBAA3C6A0</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="1AA754C0-D4DB-36B1-2EFA-084A119D813F" name="Nudi PK">
+<createdBy>2</createdBy>
+<createdTime>2020-01-28 05:02:33 UTC</createdTime>
+<ownerDesignName>festival</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="F7F15870-3367-99B8-28EF-2189D35119CC" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>5F833161-9359-C38A-E12E-B3C4E3B77E46</attributeRef>
+<attributeRef>413E6221-67D0-CAB9-79F4-7067FCDACA56</attributeRef>
+<attributeRef>1D18F077-77E5-B9FD-37E1-C467F3BFE23C</attributeRef>
+<attributeRef>4618B637-EED8-E5A7-C6B6-F9C2610C51F7</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

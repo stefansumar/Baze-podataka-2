@@ -1,0 +1,123 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="EEE085F1-425B-3AAB-2F1E-A3A9190D5C36" name="Stand">
+<createdBy>2</createdBy>
+<createdTime>2020-01-28 22:55:32 UTC</createdTime>
+<generatorID>3F134A7F-DE6C-5979-E720-11F7442E6368</generatorID>
+<ownerDesignName>festival</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="SIF_STA" id="F60CB706-154E-A593-9041-2DC9E0FED124">
+<createdBy>2</createdBy>
+<createdTime>2020-01-28 22:55:32 UTC</createdTime>
+<generatorID>54CFA4D5-3906-A39E-7899-5BBC1C3BF7EF</generatorID>
+<ownerDesignName>festival</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NAZ_STA" id="1F65CC79-0898-D5D2-3E25-A633AFD24470">
+<createdBy>2</createdBy>
+<createdTime>2020-01-28 22:55:32 UTC</createdTime>
+<generatorID>AE6DB5A2-E7EB-6EF3-ECD7-8EF8053739E2</generatorID>
+<ownerDesignName>festival</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="RBR_STA" id="FF6F30CF-44EE-F9C1-304F-B3F1E22078FB">
+<createdBy>2</createdBy>
+<createdTime>2020-01-28 22:55:32 UTC</createdTime>
+<generatorID>E16F0CB8-2DB0-1ECA-FF49-71DE554139F9</generatorID>
+<ownerDesignName>festival</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Iu_Rf_ID_RF" id="2AF359CF-E7E1-8C98-C866-E09EE13E7CBF">
+<createdBy>2</createdBy>
+<createdTime>2020-01-28 22:55:32 UTC</createdTime>
+<generatorID>DAEBF4DE-3DA4-D081-3A33-787E182632F4</generatorID>
+<ownerDesignName>festival</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="EE9D10E5-E98A-D07A-7ED1-5977A9C52278" referredColumn="E218ADD7-B756-DD57-C138-391AB3D58CD6"/>
+</associations>
+</Column>
+<Column name="Iu_Rf_F_OZN_FES" id="90A53D65-E938-C5E7-9076-D6D22655E40E">
+<createdBy>2</createdBy>
+<createdTime>2020-01-28 22:55:32 UTC</createdTime>
+<generatorID>1269C42C-FC05-754E-3D78-FBA70D53C02E</generatorID>
+<ownerDesignName>festival</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="EE9D10E5-E98A-D07A-7ED1-5977A9C52278" referredColumn="1F3DF53F-AB21-00AC-EAEB-28C40520432B"/>
+</associations>
+</Column>
+<Column name="Iu_Pp_SIF_PP" id="6557E0D9-8E97-F8C6-0711-6D69594341A2">
+<createdBy>2</createdBy>
+<createdTime>2020-01-28 22:55:32 UTC</createdTime>
+<generatorID>4F394E11-CC86-3D9C-D52D-30B33CDCE276</generatorID>
+<ownerDesignName>festival</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="EE9D10E5-E98A-D07A-7ED1-5977A9C52278" referredColumn="CFAD2FB3-6BBE-78D8-0BE6-EFB4F59FBEFB"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="1029B481-25C0-C072-5FCD-8DB573AEA195" name="Stand_PK">
+<createdBy>2</createdBy>
+<createdTime>2020-01-28 22:55:32 UTC</createdTime>
+<generatorID>D603CA53-0D0E-E621-A4F3-9EFC4F36620A</generatorID>
+<ownerDesignName>festival</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F60CB706-154E-A593-9041-2DC9E0FED124"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8D004FE9-3393-C065-6F95-2C3A90A6740E" name="Stand_Ima_ugovor_FK">
+<createdBy>2</createdBy>
+<createdTime>2020-01-28 22:55:32 UTC</createdTime>
+<generatorID>11038F36-4109-1771-DE42-C2D945134878</generatorID>
+<ownerDesignName>festival</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2AF359CF-E7E1-8C98-C866-E09EE13E7CBF"/>
+<colUsage columnID="90A53D65-E938-C5E7-9076-D6D22655E40E"/>
+<colUsage columnID="6557E0D9-8E97-F8C6-0711-6D69594341A2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

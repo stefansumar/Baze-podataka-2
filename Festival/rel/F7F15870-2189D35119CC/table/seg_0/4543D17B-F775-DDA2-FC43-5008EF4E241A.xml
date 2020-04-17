@@ -1,0 +1,94 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="4543D17B-F775-DDA2-FC43-5008EF4E241A" name="Zona">
+<createdBy>2</createdBy>
+<createdTime>2020-01-28 22:55:32 UTC</createdTime>
+<generatorID>27D247BB-ACDA-F44D-640E-CE86BF7FD5FF</generatorID>
+<ownerDesignName>festival</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="SIF_ZON" id="5A6EBF4A-B604-2388-AFE9-66C48B5D37D5">
+<createdBy>2</createdBy>
+<createdTime>2020-01-28 22:55:32 UTC</createdTime>
+<generatorID>EC5085A9-0928-7F8E-244C-0926E48DA2D1</generatorID>
+<ownerDesignName>festival</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NAZ_ZON" id="FB443D00-1657-FF41-590C-F025639A570F">
+<createdBy>2</createdBy>
+<createdTime>2020-01-28 22:55:32 UTC</createdTime>
+<generatorID>21FE958E-3428-1CAF-7AE7-FD85C0264A3A</generatorID>
+<ownerDesignName>festival</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Rf_ID_RF" id="02DEA67B-5021-391C-233E-8D3DC6464A0B">
+<createdBy>2</createdBy>
+<createdTime>2020-01-28 22:55:32 UTC</createdTime>
+<generatorID>698B443F-11F2-887D-F8CC-C00A00B73830</generatorID>
+<ownerDesignName>festival</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="DA0E39C5-A8BC-DB0B-1EBF-6CE77CD5D457" referredColumn="F69C5941-0A1E-5F25-BC3C-A9541E1360E8"/>
+</associations>
+</Column>
+<Column name="Rf_F_OZN_FES" id="A25D02F9-5336-C1E6-8425-49E1B1869481">
+<createdBy>2</createdBy>
+<createdTime>2020-01-28 22:55:32 UTC</createdTime>
+<generatorID>71B04411-0117-7AEC-6F6B-F64EBAA3C6A0</generatorID>
+<ownerDesignName>festival</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="DA0E39C5-A8BC-DB0B-1EBF-6CE77CD5D457" referredColumn="128CEF81-A079-1F4B-9951-F79AF3F27BCD"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="7AA4841A-BAEE-4BAE-8BF8-9BC1972EFD90" name="Zona_PK">
+<createdBy>2</createdBy>
+<createdTime>2020-01-28 22:55:32 UTC</createdTime>
+<generatorID>920A0761-9CC4-CCEA-B8BB-0F69545013C2</generatorID>
+<ownerDesignName>festival</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5A6EBF4A-B604-2388-AFE9-66C48B5D37D5"/>
+<colUsage columnID="02DEA67B-5021-391C-233E-8D3DC6464A0B"/>
+<colUsage columnID="A25D02F9-5336-C1E6-8425-49E1B1869481"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1A5300FC-8084-C9AB-C547-33EB66E94920" name="Zona_Realizacija_festivala_FK">
+<createdBy>2</createdBy>
+<createdTime>2020-01-28 22:55:32 UTC</createdTime>
+<generatorID>6471CB73-006D-1CD2-EA56-4E0EB68C097D</generatorID>
+<ownerDesignName>festival</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="02DEA67B-5021-391C-233E-8D3DC6464A0B"/>
+<colUsage columnID="A25D02F9-5336-C1E6-8425-49E1B1869481"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

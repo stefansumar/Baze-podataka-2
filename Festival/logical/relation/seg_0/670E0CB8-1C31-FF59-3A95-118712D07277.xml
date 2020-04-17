@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Pripada" directorySegmentName="seg_0" id="670E0CB8-1C31-FF59-3A95-118712D07277">
+<createdBy>2</createdBy>
+<createdTime>2020-01-28 04:19:11 UTC</createdTime>
+<ownerDesignName>festival</ownerDesignName>
+<engineerTo>
+<item key="F7F15870-3367-99B8-28EF-2189D35119CC" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>337CD9C5-6520-9514-FD7C-1D421E249C54</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>C5A01339-9559-94D9-8524-59D3C928BA7F</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

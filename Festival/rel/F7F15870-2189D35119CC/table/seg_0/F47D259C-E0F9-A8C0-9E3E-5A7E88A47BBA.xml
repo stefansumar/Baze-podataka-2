@@ -1,0 +1,112 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F47D259C-E0F9-A8C0-9E3E-5A7E88A47BBA" name="Ceker">
+<createdBy>2</createdBy>
+<createdTime>2020-01-28 22:55:32 UTC</createdTime>
+<generatorID>B822AEAF-9BFA-0960-A992-E282F19B1EF3</generatorID>
+<ownerDesignName>festival</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="JMBG" id="5C69FFDC-7469-117A-918E-7658F81A070E">
+<createdBy>2</createdBy>
+<createdTime>2020-01-28 22:55:32 UTC</createdTime>
+<generatorID>CAB438EB-0E0C-9774-AB61-3556941F18C7</generatorID>
+<ownerDesignName>festival</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="44E439B2-914D-AA98-2257-CE82A2E6AB5C" referredColumn="9171EED4-DBD0-66FB-0977-3D38F1374983"/>
+</associations>
+</Column>
+<Column name="Ulaz_SIF_ULZ" id="C2241BBF-029F-B285-1F4E-F5881564120D">
+<createdBy>2</createdBy>
+<createdTime>2020-01-28 22:55:32 UTC</createdTime>
+<generatorID>E29D2EDA-55B2-2730-4FD6-80EB4CCF1F9F</generatorID>
+<ownerDesignName>festival</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="15E429B7-9AB3-4CF0-DCAB-1313957A79EE" referredColumn="0E4529F5-34ED-4D53-0537-0E4848D49C71"/>
+</associations>
+</Column>
+<Column name="Ulaz_Realizacija_ID_RF" id="D5A542FE-66EB-57EB-3B9E-3D0829547398">
+<createdBy>2</createdBy>
+<createdTime>2020-01-28 22:55:32 UTC</createdTime>
+<generatorID>8FEFE263-1D36-2617-D37A-9AB535CE6FFB</generatorID>
+<ownerDesignName>festival</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="15E429B7-9AB3-4CF0-DCAB-1313957A79EE" referredColumn="83EE0C56-98F2-026A-7C1F-50CFEBABED3C"/>
+</associations>
+</Column>
+<Column name="Ulaz_Real_Fest_OZN_FES" id="224EA68B-BB10-C692-8C3C-FF7ECEAB2A30">
+<createdBy>2</createdBy>
+<createdTime>2020-01-28 22:55:32 UTC</createdTime>
+<generatorID>AEA59F51-9FF0-7616-9B84-F7EE9D34C6CB</generatorID>
+<ownerDesignName>festival</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="15E429B7-9AB3-4CF0-DCAB-1313957A79EE" referredColumn="B91D8971-8489-956F-E53F-45C86DE8E3AE"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C51596DC-82AC-3286-625C-83EEEF99147E" name="Ceker_PK">
+<createdBy>2</createdBy>
+<createdTime>2020-01-28 22:55:32 UTC</createdTime>
+<generatorID>C545CF51-D5EF-AE75-2678-1F603CDA7A01</generatorID>
+<ownerDesignName>festival</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5C69FFDC-7469-117A-918E-7658F81A070E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F3090A27-5747-302B-9ADB-CA84C8A98752" name="Ceker_Radnik_FK">
+<createdBy>2</createdBy>
+<createdTime>2020-01-28 22:55:32 UTC</createdTime>
+<generatorID>14504DB9-1C17-D594-FEE3-EE82B44D1833</generatorID>
+<ownerDesignName>festival</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5C69FFDC-7469-117A-918E-7658F81A070E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="65CA78D0-4EBA-5041-B6A0-23FB0D437515" name="Ceker_Ulaz_FK">
+<createdBy>2</createdBy>
+<createdTime>2020-01-28 22:55:32 UTC</createdTime>
+<generatorID>850142CC-0C5B-4727-D189-7FFBAC7FB4B8</generatorID>
+<ownerDesignName>festival</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C2241BBF-029F-B285-1F4E-F5881564120D"/>
+<colUsage columnID="D5A542FE-66EB-57EB-3B9E-3D0829547398"/>
+<colUsage columnID="224EA68B-BB10-C692-8C3C-FF7ECEAB2A30"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

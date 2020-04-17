@@ -1,0 +1,89 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="CA746A22-1E7E-09D5-C7AE-126E7D0AD88A" name="Ulaz">
+<createdBy>2</createdBy>
+<createdTime>2020-01-28 03:43:46 UTC</createdTime>
+<ownerDesignName>festival</ownerDesignName>
+<engineerTo>
+<item key="F7F15870-3367-99B8-28EF-2189D35119CC" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="SIF_ULZ" id="FF1DD855-A9FA-966C-F471-E818E5A047F1">
+<createdBy>2</createdBy>
+<createdTime>2020-01-28 03:43:51 UTC</createdTime>
+<ownerDesignName>festival</ownerDesignName>
+<engineerTo>
+<item key="F7F15870-3367-99B8-28EF-2189D35119CC" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="RBR_ULZ" id="545F05FF-6F2E-3784-0ABE-E29910C56773">
+<createdBy>2</createdBy>
+<createdTime>2020-01-28 03:44:05 UTC</createdTime>
+<ownerDesignName>festival</ownerDesignName>
+<engineerTo>
+<item key="F7F15870-3367-99B8-28EF-2189D35119CC" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_RF" id="5FDDE10A-0104-1572-2C34-DF409FE1963A">
+<createdBy>2</createdBy>
+<createdTime>2020-01-28 03:45:16 UTC</createdTime>
+<generatorID>5DED27CD-A63A-7161-6DFD-755E27DF4FC7</generatorID>
+<ownerDesignName>festival</ownerDesignName>
+<engineerTo>
+<item key="F7F15870-3367-99B8-28EF-2189D35119CC" value="true"/>
+</engineerTo>
+<referedAttribute>5D389F1E-DF84-1361-40FB-09AB35CBC0DB</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="OZN_FES" id="64392EBB-D556-CD9E-B471-D48797DE5586">
+<createdBy>2</createdBy>
+<createdTime>2020-01-28 03:45:16 UTC</createdTime>
+<generatorID>5DED27CD-A63A-7161-6DFD-755E27DF4FC7</generatorID>
+<ownerDesignName>festival</ownerDesignName>
+<engineerTo>
+<item key="F7F15870-3367-99B8-28EF-2189D35119CC" value="true"/>
+</engineerTo>
+<referedAttribute>E62D3199-93AA-F9D5-9D21-B399B8714135</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="F4329307-3A4F-6BB9-F193-4503B6A46A80" name="Ulaz PK">
+<createdBy>2</createdBy>
+<createdTime>2020-01-28 03:44:04 UTC</createdTime>
+<ownerDesignName>festival</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="F7F15870-3367-99B8-28EF-2189D35119CC" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>FF1DD855-A9FA-966C-F471-E818E5A047F1</attributeRef>
+<attributeRef>5FDDE10A-0104-1572-2C34-DF409FE1963A</attributeRef>
+<attributeRef>64392EBB-D556-CD9E-B471-D48797DE5586</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

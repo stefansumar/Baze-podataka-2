@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Obezbedjuje" directorySegmentName="seg_0" id="0D7998B7-F19C-C410-E021-40104E908B68">
+<createdBy>2</createdBy>
+<createdTime>2020-01-28 21:25:11 UTC</createdTime>
+<ownerDesignName>festival</ownerDesignName>
+<engineerTo>
+<item key="F7F15870-3367-99B8-28EF-2189D35119CC" value="true"/>
+</engineerTo>
+<targetPk>920A0761-9CC4-CCEA-B8BB-0F69545013C2</targetPk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>461165CC-35C7-63A0-A812-4D1F8CA6355E</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>27D247BB-ACDA-F44D-640E-CE86BF7FD5FF</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

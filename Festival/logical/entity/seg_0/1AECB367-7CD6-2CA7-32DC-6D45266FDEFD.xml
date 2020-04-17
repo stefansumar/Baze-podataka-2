@@ -1,0 +1,134 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="1AECB367-7CD6-2CA7-32DC-6D45266FDEFD" name="Dolazi">
+<createdBy>2</createdBy>
+<createdTime>2020-01-28 04:22:48 UTC</createdTime>
+<ownerDesignName>festival</ownerDesignName>
+<engineerTo>
+<item key="F7F15870-3367-99B8-28EF-2189D35119CC" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="SIF_IZV" id="265588D7-3891-26FE-5FC2-4A726613E9FA">
+<createdBy>2</createdBy>
+<createdTime>2020-01-28 04:24:12 UTC</createdTime>
+<generatorID>034AA1B6-9DFA-F0DB-205C-52196B786F68</generatorID>
+<ownerDesignName>festival</ownerDesignName>
+<engineerTo>
+<item key="F7F15870-3367-99B8-28EF-2189D35119CC" value="true"/>
+</engineerTo>
+<referedAttribute>15C146AE-06D9-1022-63AA-429FB8075F68</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_RF" id="2B958EC1-F9E6-576B-3ECA-34E4208C2CFA">
+<createdBy>2</createdBy>
+<createdTime>2020-01-28 04:25:39 UTC</createdTime>
+<generatorID>FDEAF69F-8B27-9E65-3E7B-501E0C1C9289</generatorID>
+<ownerDesignName>festival</ownerDesignName>
+<engineerTo>
+<item key="F7F15870-3367-99B8-28EF-2189D35119CC" value="true"/>
+</engineerTo>
+<referedAttribute>5D389F1E-DF84-1361-40FB-09AB35CBC0DB</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="OZN_FES" id="6E8A228E-5547-BF20-DEB5-DF81E2D8050F">
+<createdBy>2</createdBy>
+<createdTime>2020-01-28 04:25:39 UTC</createdTime>
+<generatorID>FDEAF69F-8B27-9E65-3E7B-501E0C1C9289</generatorID>
+<ownerDesignName>festival</ownerDesignName>
+<engineerTo>
+<item key="F7F15870-3367-99B8-28EF-2189D35119CC" value="true"/>
+</engineerTo>
+<referedAttribute>E62D3199-93AA-F9D5-9D21-B399B8714135</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="SIF_BIN" id="59563E07-8F84-8C8A-DBEB-1963A15E3787">
+<createdBy>2</createdBy>
+<createdTime>2020-01-28 22:55:13 UTC</createdTime>
+<generatorID>FA9B837F-AEF1-9ACF-85E1-59EB32A53077</generatorID>
+<ownerDesignName>festival</ownerDesignName>
+<engineerTo>
+<item key="F7F15870-3367-99B8-28EF-2189D35119CC" value="true"/>
+</engineerTo>
+<referedAttribute>5CA32FBA-C50E-A547-EAF6-5F5EA897EA8C</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="SIF_ZON" id="E817AC0D-D93B-A16F-52B3-946C3DA38F41">
+<createdBy>2</createdBy>
+<createdTime>2020-01-28 22:55:13 UTC</createdTime>
+<generatorID>FA9B837F-AEF1-9ACF-85E1-59EB32A53077</generatorID>
+<ownerDesignName>festival</ownerDesignName>
+<engineerTo>
+<item key="F7F15870-3367-99B8-28EF-2189D35119CC" value="true"/>
+</engineerTo>
+<referedAttribute>EC55D04E-CBF2-4A6B-B61E-75CC2E1C8EDA</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_RF1" id="F4026E4B-2C3C-2D95-AAC9-DDC915FD943A">
+<createdBy>2</createdBy>
+<createdTime>2020-01-28 22:55:13 UTC</createdTime>
+<generatorID>FA9B837F-AEF1-9ACF-85E1-59EB32A53077</generatorID>
+<ownerDesignName>festival</ownerDesignName>
+<engineerTo>
+<item key="F7F15870-3367-99B8-28EF-2189D35119CC" value="true"/>
+</engineerTo>
+<referedAttribute>A38FD8F9-96A6-F1F5-92F7-6374D8923EDC</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="OZN_FES1" id="A5586A2C-5BC6-ADA5-5E6D-5EAE7D1938FC">
+<createdBy>2</createdBy>
+<createdTime>2020-01-28 22:55:13 UTC</createdTime>
+<generatorID>FA9B837F-AEF1-9ACF-85E1-59EB32A53077</generatorID>
+<ownerDesignName>festival</ownerDesignName>
+<engineerTo>
+<item key="F7F15870-3367-99B8-28EF-2189D35119CC" value="true"/>
+</engineerTo>
+<referedAttribute>D18D9D23-917D-BD7B-2F63-B86BBFC4D069</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="FACE4C01-67D0-BD99-0D05-DE24860074D6" name="Dolazi PK">
+<createdBy>2</createdBy>
+<createdTime>2020-01-28 04:57:40 UTC</createdTime>
+<ownerDesignName>festival</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="F7F15870-3367-99B8-28EF-2189D35119CC" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>265588D7-3891-26FE-5FC2-4A726613E9FA</attributeRef>
+<attributeRef>2B958EC1-F9E6-576B-3ECA-34E4208C2CFA</attributeRef>
+<attributeRef>6E8A228E-5547-BF20-DEB5-DF81E2D8050F</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

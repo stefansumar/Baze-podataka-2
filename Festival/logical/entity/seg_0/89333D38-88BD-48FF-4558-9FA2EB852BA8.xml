@@ -1,0 +1,48 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="89333D38-88BD-48FF-4558-9FA2EB852BA8" name="Staff_karta">
+<createdBy>2</createdBy>
+<createdTime>2020-01-28 21:29:19 UTC</createdTime>
+<ownerDesignName>festival</ownerDesignName>
+<engineerTo>
+<item key="F7F15870-3367-99B8-28EF-2189D35119CC" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<hierarchicalParent>02B359BE-4769-6C2E-B7C4-83EFAC677C58</hierarchicalParent>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="OZN_FES" id="67BA7550-E08D-A539-72F8-2A0256EB9758">
+<createdBy>2</createdBy>
+<createdTime>2020-01-28 21:36:12 UTC</createdTime>
+<generatorID>DB044445-772A-DF10-66C9-A0CFA51CB0E4</generatorID>
+<ownerDesignName>festival</ownerDesignName>
+<engineerTo>
+<item key="F7F15870-3367-99B8-28EF-2189D35119CC" value="true"/>
+</engineerTo>
+<referedAttribute>C3D3D6A1-CD52-FF02-8AE5-A3C941105323</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="JMBG" id="132CB545-5E71-B7EF-C04B-95360E37C788">
+<createdBy>2</createdBy>
+<createdTime>2020-01-28 21:36:12 UTC</createdTime>
+<generatorID>DB044445-772A-DF10-66C9-A0CFA51CB0E4</generatorID>
+<ownerDesignName>festival</ownerDesignName>
+<engineerTo>
+<item key="F7F15870-3367-99B8-28EF-2189D35119CC" value="true"/>
+</engineerTo>
+<referedAttribute>82498222-E992-D954-4404-AB7A21D76D49</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

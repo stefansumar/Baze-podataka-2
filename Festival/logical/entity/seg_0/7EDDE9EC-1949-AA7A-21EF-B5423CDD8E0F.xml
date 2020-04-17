@@ -1,0 +1,104 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="7EDDE9EC-1949-AA7A-21EF-B5423CDD8E0F" name="Bina">
+<createdBy>2</createdBy>
+<createdTime>2020-01-28 04:28:01 UTC</createdTime>
+<ownerDesignName>festival</ownerDesignName>
+<engineerTo>
+<item key="F7F15870-3367-99B8-28EF-2189D35119CC" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="SIF_BIN" id="5CA32FBA-C50E-A547-EAF6-5F5EA897EA8C">
+<createdBy>2</createdBy>
+<createdTime>2020-01-28 04:28:07 UTC</createdTime>
+<ownerDesignName>festival</ownerDesignName>
+<engineerTo>
+<item key="F7F15870-3367-99B8-28EF-2189D35119CC" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="KAP_BIN" id="91082C3A-058B-490F-5E35-522373491E24">
+<createdBy>2</createdBy>
+<createdTime>2020-01-28 04:28:27 UTC</createdTime>
+<ownerDesignName>festival</ownerDesignName>
+<engineerTo>
+<item key="F7F15870-3367-99B8-28EF-2189D35119CC" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="SIF_ZON" id="EC55D04E-CBF2-4A6B-B61E-75CC2E1C8EDA">
+<createdBy>2</createdBy>
+<createdTime>2020-01-28 04:29:34 UTC</createdTime>
+<generatorID>475F42A2-1479-ED63-0216-720F89714026</generatorID>
+<ownerDesignName>festival</ownerDesignName>
+<engineerTo>
+<item key="F7F15870-3367-99B8-28EF-2189D35119CC" value="true"/>
+</engineerTo>
+<referedAttribute>EC5085A9-0928-7F8E-244C-0926E48DA2D1</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_RF" id="A38FD8F9-96A6-F1F5-92F7-6374D8923EDC">
+<createdBy>2</createdBy>
+<createdTime>2020-01-28 04:29:34 UTC</createdTime>
+<generatorID>475F42A2-1479-ED63-0216-720F89714026</generatorID>
+<ownerDesignName>festival</ownerDesignName>
+<engineerTo>
+<item key="F7F15870-3367-99B8-28EF-2189D35119CC" value="true"/>
+</engineerTo>
+<referedAttribute>698B443F-11F2-887D-F8CC-C00A00B73830</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="OZN_FES" id="D18D9D23-917D-BD7B-2F63-B86BBFC4D069">
+<createdBy>2</createdBy>
+<createdTime>2020-01-28 04:29:34 UTC</createdTime>
+<generatorID>475F42A2-1479-ED63-0216-720F89714026</generatorID>
+<ownerDesignName>festival</ownerDesignName>
+<engineerTo>
+<item key="F7F15870-3367-99B8-28EF-2189D35119CC" value="true"/>
+</engineerTo>
+<referedAttribute>71B04411-0117-7AEC-6F6B-F64EBAA3C6A0</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="9455695E-07CE-2FA8-FBBC-114A7364A71E" name="Bina PK">
+<createdBy>2</createdBy>
+<createdTime>2020-01-28 04:28:26 UTC</createdTime>
+<ownerDesignName>festival</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="F7F15870-3367-99B8-28EF-2189D35119CC" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>5CA32FBA-C50E-A547-EAF6-5F5EA897EA8C</attributeRef>
+<attributeRef>EC55D04E-CBF2-4A6B-B61E-75CC2E1C8EDA</attributeRef>
+<attributeRef>A38FD8F9-96A6-F1F5-92F7-6374D8923EDC</attributeRef>
+<attributeRef>D18D9D23-917D-BD7B-2F63-B86BBFC4D069</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

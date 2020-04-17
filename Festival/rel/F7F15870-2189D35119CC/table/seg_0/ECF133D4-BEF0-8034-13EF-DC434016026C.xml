@@ -1,0 +1,238 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="ECF133D4-BEF0-8034-13EF-DC434016026C" name="Karta">
+<createdBy>2</createdBy>
+<createdTime>2020-01-28 22:55:32 UTC</createdTime>
+<generatorID>02B359BE-4769-6C2E-B7C4-83EFAC677C58</generatorID>
+<ownerDesignName>festival</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="SIF_KAR" id="DE90B9A3-43E5-4461-A0BA-264F60143EF7">
+<createdBy>2</createdBy>
+<createdTime>2020-01-28 22:55:32 UTC</createdTime>
+<generatorID>1512202C-9073-3484-D605-8283CB3A8651</generatorID>
+<ownerDesignName>festival</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DAT_PVK" id="AFCA7675-68D7-5683-056B-4088AED10F8B">
+<createdBy>2</createdBy>
+<createdTime>2020-01-28 22:55:32 UTC</createdTime>
+<generatorID>D5234AF1-0C29-CA7A-DC49-C50856955512</generatorID>
+<ownerDesignName>festival</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DAT_KVK" id="DF779554-D0EF-34DD-0B88-BF87F15FFC96">
+<createdBy>2</createdBy>
+<createdTime>2020-01-28 22:55:32 UTC</createdTime>
+<generatorID>15F2DA19-7586-ADB7-5AAE-4FEE7D928BE0</generatorID>
+<ownerDesignName>festival</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NAR_PRO" id="9F2AF72A-7363-49B4-AC34-ADBBFED7C0E7">
+<createdBy>2</createdBy>
+<createdTime>2020-01-28 22:55:32 UTC</createdTime>
+<generatorID>DD133ACC-1C94-37ED-0CFB-62DF4534C87D</generatorID>
+<ownerDesignName>festival</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="BAR_KOD" id="B800CDB6-6F25-7E74-4CA4-71627CC22E85">
+<createdBy>2</createdBy>
+<createdTime>2020-01-28 22:55:32 UTC</createdTime>
+<generatorID>3B695583-9009-B84B-94A9-0195C05AD533</generatorID>
+<ownerDesignName>festival</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Real_ID_RF" id="57AEF883-F8BF-6A3D-1804-B846CE6D2D6C">
+<createdBy>2</createdBy>
+<createdTime>2020-01-28 22:55:32 UTC</createdTime>
+<generatorID>3A82DB78-5EC2-D1C1-5A18-99976018E70E</generatorID>
+<ownerDesignName>festival</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="25982714-A4B8-40D2-60FB-064C8302E4B8" referredColumn="F69C5941-0A1E-5F25-BC3C-A9541E1360E8"/>
+</associations>
+</Column>
+<Column name="Rf_F_OZN_FES" id="5CA4E8E3-7ECF-9563-78D9-582F4A24E92B">
+<createdBy>2</createdBy>
+<createdTime>2020-01-28 22:55:32 UTC</createdTime>
+<generatorID>B084A2BB-DEF6-F34C-A62E-E765DA5B0A4A</generatorID>
+<ownerDesignName>festival</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="25982714-A4B8-40D2-60FB-064C8302E4B8" referredColumn="128CEF81-A079-1F4B-9951-F79AF3F27BCD"/>
+</associations>
+</Column>
+<Column name="Ceker_JMBG" id="76C6CAB7-57ED-A361-7DC6-18BD55D3C161">
+<createdBy>2</createdBy>
+<createdTime>2020-01-28 22:55:32 UTC</createdTime>
+<generatorID>677DC274-F05C-5B3E-CBDE-F68418F52CEE</generatorID>
+<ownerDesignName>festival</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7BC8AE1F-8361-93A8-A8D2-9128240088B9" referredColumn="5C69FFDC-7469-117A-918E-7658F81A070E"/>
+</associations>
+</Column>
+<Column name="TIP_KARTE" id="60B0750E-5BE4-9CC3-F589-F189DB2214E0">
+<createdBy>2</createdBy>
+<createdTime>2020-01-28 22:55:32 UTC</createdTime>
+<generatorID>5E507310-AF2B-38E7-1FEA-28672A09CACB</generatorID>
+<ownerDesignName>festival</ownerDesignName>
+<constraintName>CH_INH_Karta</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<domain>11A14EEE-1800-F3D2-5EC7-901FE34F4E7C</domain>
+<listOfValues>
+<valueDef value="Karta" description="entity Karta"/>
+<valueDef value="Staff_karta" description="entity Staff_karta"/>
+<valueDef value="VIP_karta" description="entity VIP_karta"/>
+</listOfValues>
+<ownDataTypeParameters>11,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isDiscriminatorColumn>true</isDiscriminatorColumn>
+</Column>
+<Column name="Karta_SIF_KAR" id="20412C1C-C9FF-1A3D-38F3-18BB597F94F7">
+<createdBy>2</createdBy>
+<createdTime>2020-01-28 22:55:32 UTC</createdTime>
+<generatorID>088E5B78-5148-74B5-D108-134356AD8E88</generatorID>
+<ownerDesignName>festival</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F5F76DCD-DF75-6372-5132-E8300CB0EE39" referredColumn="DE90B9A3-43E5-4461-A0BA-264F60143EF7"/>
+</associations>
+</Column>
+<Column name="Karta_Rf_ID_RF" id="F956AA9F-F7FA-7183-BCAA-F3667710E171">
+<createdBy>2</createdBy>
+<createdTime>2020-01-28 22:55:32 UTC</createdTime>
+<generatorID>02BE4614-06BF-4465-000B-513446A48C7A</generatorID>
+<ownerDesignName>festival</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F5F76DCD-DF75-6372-5132-E8300CB0EE39" referredColumn="57AEF883-F8BF-6A3D-1804-B846CE6D2D6C"/>
+</associations>
+</Column>
+<Column name="Karta_Rf_F_OZN_FES" id="58D166E7-C2F9-3CDA-161D-C69E8F6DA7D7">
+<createdBy>2</createdBy>
+<createdTime>2020-01-28 22:55:32 UTC</createdTime>
+<generatorID>B678785B-F8F2-338C-35E3-081BCA8E6266</generatorID>
+<ownerDesignName>festival</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F5F76DCD-DF75-6372-5132-E8300CB0EE39" referredColumn="5CA4E8E3-7ECF-9563-78D9-582F4A24E92B"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="DAEF9559-18A6-4567-955E-83A93FF9FE0E" name="Karta_PK">
+<createdBy>2</createdBy>
+<createdTime>2020-01-28 22:55:32 UTC</createdTime>
+<generatorID>1A8AF41F-2B55-FA71-3908-724D21BA0EE5</generatorID>
+<ownerDesignName>festival</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DE90B9A3-43E5-4461-A0BA-264F60143EF7"/>
+<colUsage columnID="57AEF883-F8BF-6A3D-1804-B846CE6D2D6C"/>
+<colUsage columnID="5CA4E8E3-7ECF-9563-78D9-582F4A24E92B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5FE80010-9B34-4A85-3D13-3A8DB33D3C1C" name="Karta_Ceker_FK">
+<createdBy>2</createdBy>
+<createdTime>2020-01-28 22:55:32 UTC</createdTime>
+<generatorID>5E913E48-8902-BE40-389D-86DACD2ECA7E</generatorID>
+<ownerDesignName>festival</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="76C6CAB7-57ED-A361-7DC6-18BD55D3C161"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C405B377-396E-7D0E-00F1-7C669B2C204F" name="Karta_Realizacija_festivala_FK">
+<createdBy>2</createdBy>
+<createdTime>2020-01-28 22:55:32 UTC</createdTime>
+<generatorID>334C869B-CAF0-FFCC-01BB-66C9F6BFB0C5</generatorID>
+<ownerDesignName>festival</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="57AEF883-F8BF-6A3D-1804-B846CE6D2D6C"/>
+<colUsage columnID="5CA4E8E3-7ECF-9563-78D9-582F4A24E92B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0C961D49-77AF-6F85-EC01-030D865F650B" name="Karta_Karta_FK">
+<createdBy>2</createdBy>
+<createdTime>2020-01-28 22:55:32 UTC</createdTime>
+<generatorID>6D4C1663-D32A-0986-4871-64923D601459</generatorID>
+<ownerDesignName>festival</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="20412C1C-C9FF-1A3D-38F3-18BB597F94F7"/>
+<colUsage columnID="F956AA9F-F7FA-7183-BCAA-F3667710E171"/>
+<colUsage columnID="58D166E7-C2F9-3CDA-161D-C69E8F6DA7D7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

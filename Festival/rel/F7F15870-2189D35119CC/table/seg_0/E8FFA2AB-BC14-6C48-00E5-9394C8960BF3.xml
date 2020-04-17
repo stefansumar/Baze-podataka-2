@@ -1,0 +1,113 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E8FFA2AB-BC14-6C48-00E5-9394C8960BF3" name="Nudi">
+<createdBy>2</createdBy>
+<createdTime>2020-01-28 22:55:32 UTC</createdTime>
+<generatorID>259F688D-0F1F-F54C-AB72-6AD497766174</generatorID>
+<ownerDesignName>festival</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Stand_SIF_STA" id="175EB4ED-B7F6-6B70-6C00-62B3AE160A57">
+<createdBy>2</createdBy>
+<createdTime>2020-01-28 22:55:32 UTC</createdTime>
+<generatorID>5F833161-9359-C38A-E12E-B3C4E3B77E46</generatorID>
+<ownerDesignName>festival</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E1F61856-FD0E-7089-BE28-957DF6B099F3" referredColumn="F60CB706-154E-A593-9041-2DC9E0FED124"/>
+</associations>
+</Column>
+<Column name="Zona_SIF_ZON" id="C1BB4D7E-56DA-B193-2341-1B17ADAC7A64">
+<createdBy>2</createdBy>
+<createdTime>2020-01-28 22:55:32 UTC</createdTime>
+<generatorID>413E6221-67D0-CAB9-79F4-7067FCDACA56</generatorID>
+<ownerDesignName>festival</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0C4EFFBF-36C9-AAC5-0919-BE8BA0D795C6" referredColumn="5A6EBF4A-B604-2388-AFE9-66C48B5D37D5"/>
+</associations>
+</Column>
+<Column name="Zona_ID_RF" id="09E2CEA2-F42E-B3A1-D4DA-97DDC6A759B3">
+<createdBy>2</createdBy>
+<createdTime>2020-01-28 22:55:32 UTC</createdTime>
+<generatorID>1D18F077-77E5-B9FD-37E1-C467F3BFE23C</generatorID>
+<ownerDesignName>festival</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0C4EFFBF-36C9-AAC5-0919-BE8BA0D795C6" referredColumn="02DEA67B-5021-391C-233E-8D3DC6464A0B"/>
+</associations>
+</Column>
+<Column name="Zona_OZN_FES" id="5BB0C7DA-629A-1731-99E7-91DF6BAE1D4B">
+<createdBy>2</createdBy>
+<createdTime>2020-01-28 22:55:32 UTC</createdTime>
+<generatorID>4618B637-EED8-E5A7-C6B6-F9C2610C51F7</generatorID>
+<ownerDesignName>festival</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0C4EFFBF-36C9-AAC5-0919-BE8BA0D795C6" referredColumn="A25D02F9-5336-C1E6-8425-49E1B1869481"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="EF3E9F21-E995-2918-F521-ABE3412F918A" name="Nudi_PK">
+<createdBy>2</createdBy>
+<createdTime>2020-01-28 22:55:32 UTC</createdTime>
+<generatorID>1AA754C0-D4DB-36B1-2EFA-084A119D813F</generatorID>
+<ownerDesignName>festival</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="175EB4ED-B7F6-6B70-6C00-62B3AE160A57"/>
+<colUsage columnID="C1BB4D7E-56DA-B193-2341-1B17ADAC7A64"/>
+<colUsage columnID="09E2CEA2-F42E-B3A1-D4DA-97DDC6A759B3"/>
+<colUsage columnID="5BB0C7DA-629A-1731-99E7-91DF6BAE1D4B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D46E0684-EC29-34C6-CAF5-49AA422AD101" name="Nudi_Stand_FK">
+<createdBy>2</createdBy>
+<createdTime>2020-01-28 22:55:32 UTC</createdTime>
+<generatorID>C7623D51-E712-DBF3-178B-F89489B56A97</generatorID>
+<ownerDesignName>festival</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="175EB4ED-B7F6-6B70-6C00-62B3AE160A57"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="AC5BED63-4ACF-68F9-D3A2-5B075B704BAA" name="Nudi_Zona_FK">
+<createdBy>2</createdBy>
+<createdTime>2020-01-28 22:55:32 UTC</createdTime>
+<generatorID>E48A9967-7297-D03E-33CD-8F4E432B71AD</generatorID>
+<ownerDesignName>festival</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C1BB4D7E-56DA-B193-2341-1B17ADAC7A64"/>
+<colUsage columnID="09E2CEA2-F42E-B3A1-D4DA-97DDC6A759B3"/>
+<colUsage columnID="5BB0C7DA-629A-1731-99E7-91DF6BAE1D4B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

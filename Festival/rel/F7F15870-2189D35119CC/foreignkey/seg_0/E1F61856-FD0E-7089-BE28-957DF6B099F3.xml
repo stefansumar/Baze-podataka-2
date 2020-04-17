@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="E1F61856-FD0E-7089-BE28-957DF6B099F3" containerWithKeyObject="E8FFA2AB-BC14-6C48-00E5-9394C8960BF3" localFKIndex="D46E0684-EC29-34C6-CAF5-49AA422AD101" name="Nudi_Stand_FK">
+<createdBy>2</createdBy>
+<createdTime>2020-01-28 22:55:32 UTC</createdTime>
+<generatorID>C7623D51-E712-DBF3-178B-F89489B56A97</generatorID>
+<ownerDesignName>festival</ownerDesignName>
+<referredTableLongName>Stand</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>EEE085F1-425B-3AAB-2F1E-A3A9190D5C36</referredTableID>
+<keyObject>1029B481-25C0-C072-5FCD-8DB573AEA195</keyObject>
+<referredKeyID>1029B481-25C0-C072-5FCD-8DB573AEA195</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>SIF_STA</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

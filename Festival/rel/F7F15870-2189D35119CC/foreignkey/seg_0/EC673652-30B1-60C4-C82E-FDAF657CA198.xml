@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="EC673652-30B1-60C4-C82E-FDAF657CA198" containerWithKeyObject="D010CFD1-D70A-6359-29F1-DAF7A8B5A8C8" localFKIndex="5DF66F93-D573-EF5B-0BA4-0B6D1051A9AA" name="Prodavac_Radnik_FK">
+<createdBy>2</createdBy>
+<createdTime>2020-01-28 22:55:32 UTC</createdTime>
+<generatorID>833C9A24-E05F-3DB2-85AC-67CD255527BA</generatorID>
+<ownerDesignName>festival</ownerDesignName>
+<referredTableLongName>Radnik</referredTableLongName>
+<arc>10B2B18A-2ECB-BFEE-422B-23372204322A</arc>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>2A79C4AB-5F52-3FEB-8F71-571A27158271</referredTableID>
+<keyObject>1EC48E74-09C4-039A-DD69-CE831478C1C3</keyObject>
+<referredKeyID>1EC48E74-09C4-039A-DD69-CE831478C1C3</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>JMBG</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<discriminatorValue>Prodavac</discriminatorValue>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,171 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="17B2E041-DB2B-7030-5F30-B4DA3252186C" name="Ima_pristup">
+<createdBy>2</createdBy>
+<createdTime>2020-01-28 22:55:32 UTC</createdTime>
+<ownerDesignName>festival</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="VIP_karta_SIF_KAR" id="6AB94423-F697-DA94-CA62-067025CCD69D">
+<createdBy>2</createdBy>
+<createdTime>2020-01-28 22:55:32 UTC</createdTime>
+<ownerDesignName>festival</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="479357C6-75A2-8150-AB74-5A162F09FF88" referredColumn="60EA7D35-0DE4-196C-A25A-93CC9C2420EC"/>
+</associations>
+</Column>
+<Column name="VIP_karta_ID_RF" id="D79A03B0-2391-E34A-BBB5-C22AAC9C226F">
+<createdBy>2</createdBy>
+<createdTime>2020-01-28 22:55:32 UTC</createdTime>
+<ownerDesignName>festival</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="479357C6-75A2-8150-AB74-5A162F09FF88" referredColumn="8BD06628-169E-0AF4-C79A-9AB3787CF1D8"/>
+</associations>
+</Column>
+<Column name="VIP_karta_OZN_FES" id="3E032F67-814E-C2DB-75A4-1656678C760F">
+<createdBy>2</createdBy>
+<createdTime>2020-01-28 22:55:32 UTC</createdTime>
+<ownerDesignName>festival</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="479357C6-75A2-8150-AB74-5A162F09FF88" referredColumn="0A7E7F8D-22DA-B3D3-E059-A905D494752D"/>
+</associations>
+</Column>
+<Column name="Bs_SIF_BS" id="B68C0326-2D2F-CF4D-39DF-1D4D9C00628F">
+<createdBy>2</createdBy>
+<createdTime>2020-01-28 22:55:32 UTC</createdTime>
+<ownerDesignName>festival</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B415D7BD-76DF-DCC1-5F71-6C87874B4816" referredColumn="D7419C2B-388D-CE1F-ABEC-960FE741E708"/>
+</associations>
+</Column>
+<Column name="Bs_SIF_BIN" id="DE525A14-DC4C-7692-0D04-6C9DF358047B">
+<createdBy>2</createdBy>
+<createdTime>2020-01-28 22:55:32 UTC</createdTime>
+<ownerDesignName>festival</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B415D7BD-76DF-DCC1-5F71-6C87874B4816" referredColumn="B9FF3887-A4A6-9E9B-FC3D-6A4B06DC16C2"/>
+</associations>
+</Column>
+<Column name="Bs_SIF_ZON" id="2D11E8E2-E332-DF3F-7D90-D0AA435CB48D">
+<createdBy>2</createdBy>
+<createdTime>2020-01-28 22:55:32 UTC</createdTime>
+<ownerDesignName>festival</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B415D7BD-76DF-DCC1-5F71-6C87874B4816" referredColumn="45F23744-BA1B-7E26-628D-C85E082E3460"/>
+</associations>
+</Column>
+<Column name="Bs_ID_RF" id="E0D88B11-BCB4-000D-84BE-991738B81F79">
+<createdBy>2</createdBy>
+<createdTime>2020-01-28 22:55:32 UTC</createdTime>
+<ownerDesignName>festival</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B415D7BD-76DF-DCC1-5F71-6C87874B4816" referredColumn="A99E53AA-22DC-4591-CA3C-653C67E71254"/>
+</associations>
+</Column>
+<Column name="Bs_OZN_FES" id="912A3155-85E5-079C-11E0-F14A61EABDEF">
+<createdBy>2</createdBy>
+<createdTime>2020-01-28 22:55:32 UTC</createdTime>
+<ownerDesignName>festival</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B415D7BD-76DF-DCC1-5F71-6C87874B4816" referredColumn="E6D69151-47F9-B50E-A71E-1068C83E6B36"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="4EC7519E-6BE7-DFC3-EF56-D4B4245441FB" name="Ima_pristup_PK">
+<createdBy>2</createdBy>
+<createdTime>2020-01-28 22:55:32 UTC</createdTime>
+<ownerDesignName>festival</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6AB94423-F697-DA94-CA62-067025CCD69D"/>
+<colUsage columnID="D79A03B0-2391-E34A-BBB5-C22AAC9C226F"/>
+<colUsage columnID="3E032F67-814E-C2DB-75A4-1656678C760F"/>
+<colUsage columnID="B68C0326-2D2F-CF4D-39DF-1D4D9C00628F"/>
+<colUsage columnID="DE525A14-DC4C-7692-0D04-6C9DF358047B"/>
+<colUsage columnID="2D11E8E2-E332-DF3F-7D90-D0AA435CB48D"/>
+<colUsage columnID="E0D88B11-BCB4-000D-84BE-991738B81F79"/>
+<colUsage columnID="912A3155-85E5-079C-11E0-F14A61EABDEF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8137BB71-BFFB-4ABE-C7FE-2A2A1AF149B1" name="Ima_pristup_VIP_karta_FK">
+<createdBy>2</createdBy>
+<createdTime>2020-01-28 22:55:32 UTC</createdTime>
+<generatorID>AA58B615-C044-FB3D-6031-08034975097F</generatorID>
+<ownerDesignName>festival</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6AB94423-F697-DA94-CA62-067025CCD69D"/>
+<colUsage columnID="D79A03B0-2391-E34A-BBB5-C22AAC9C226F"/>
+<colUsage columnID="3E032F67-814E-C2DB-75A4-1656678C760F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7C59F5D8-21A2-BF9C-FBE1-58E7FB413C53" name="Ima_pristup_Backstage_FK">
+<createdBy>2</createdBy>
+<createdTime>2020-01-28 22:55:32 UTC</createdTime>
+<generatorID>AA58B615-C044-FB3D-6031-08034975097F</generatorID>
+<ownerDesignName>festival</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B68C0326-2D2F-CF4D-39DF-1D4D9C00628F"/>
+<colUsage columnID="DE525A14-DC4C-7692-0D04-6C9DF358047B"/>
+<colUsage columnID="2D11E8E2-E332-DF3F-7D90-D0AA435CB48D"/>
+<colUsage columnID="E0D88B11-BCB4-000D-84BE-991738B81F79"/>
+<colUsage columnID="912A3155-85E5-079C-11E0-F14A61EABDEF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

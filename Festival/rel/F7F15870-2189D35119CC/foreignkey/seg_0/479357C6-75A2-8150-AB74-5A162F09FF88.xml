@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="479357C6-75A2-8150-AB74-5A162F09FF88" containerWithKeyObject="17B2E041-DB2B-7030-5F30-B4DA3252186C" localFKIndex="8137BB71-BFFB-4ABE-C7FE-2A2A1AF149B1" name="Ima_pristup_VIP_karta_FK">
+<createdBy>2</createdBy>
+<createdTime>2020-01-28 22:55:32 UTC</createdTime>
+<generatorID>AA58B615-C044-FB3D-6031-08034975097F</generatorID>
+<ownerDesignName>festival</ownerDesignName>
+<referredTableLongName>VIP_karta</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>B86EE4F2-A106-4221-6F5D-2001BF12A088</referredTableID>
+<keyObject>7F4DB10F-E37E-2FFA-A242-B512970C8855</keyObject>
+<referredKeyID>7F4DB10F-E37E-2FFA-A242-B512970C8855</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>SIF_KAR,ID_RF,OZN_FES</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

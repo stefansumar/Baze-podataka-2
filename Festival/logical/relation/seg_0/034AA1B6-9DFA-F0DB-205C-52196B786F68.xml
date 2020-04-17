@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Dolazi2" directorySegmentName="seg_0" id="034AA1B6-9DFA-F0DB-205C-52196B786F68">
+<createdBy>2</createdBy>
+<createdTime>2020-01-28 04:23:42 UTC</createdTime>
+<ownerDesignName>festival</ownerDesignName>
+<engineerTo>
+<item key="F7F15870-3367-99B8-28EF-2189D35119CC" value="true"/>
+</engineerTo>
+<targetPk>265E82AF-756E-2717-6695-D17212485E09</targetPk>
+<identifying>true</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>1AECB367-7CD6-2CA7-32DC-6D45266FDEFD</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>337CD9C5-6520-9514-FD7C-1D421E249C54</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,0 +1,79 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="BE18AFF2-5385-F44B-B3C5-D44249F702AA" name="Radi">
+<createdBy>2</createdBy>
+<createdTime>2020-01-28 22:55:32 UTC</createdTime>
+<generatorID>ED6B9156-DEA3-4318-B603-D5BAAD8C76E1</generatorID>
+<ownerDesignName>festival</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Festival_OZN_FES" id="87A8D269-74B8-4656-ECA0-329D40209995">
+<createdBy>2</createdBy>
+<createdTime>2020-01-28 22:55:32 UTC</createdTime>
+<generatorID>C3D3D6A1-CD52-FF02-8AE5-A3C941105323</generatorID>
+<ownerDesignName>festival</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="779521F7-D122-A791-D956-55D19897A342" referredColumn="22B4EEA6-2E57-F970-C3BA-EC0ABD3D0575"/>
+</associations>
+</Column>
+<Column name="Radnik_JMBG" id="11F1213B-5DF4-FCD1-DDBC-9FF640B6803D">
+<createdBy>2</createdBy>
+<createdTime>2020-01-28 22:55:32 UTC</createdTime>
+<generatorID>82498222-E992-D954-4404-AB7A21D76D49</generatorID>
+<ownerDesignName>festival</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="53284B86-9197-B473-7B5B-790E79EF80A6" referredColumn="9171EED4-DBD0-66FB-0977-3D38F1374983"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="293EC653-E054-BD4F-3014-2824EF2FA65D" name="Radi_PK">
+<createdBy>2</createdBy>
+<createdTime>2020-01-28 22:55:32 UTC</createdTime>
+<generatorID>FFD5F20D-917E-45F8-4334-ADC05811F7E8</generatorID>
+<ownerDesignName>festival</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="87A8D269-74B8-4656-ECA0-329D40209995"/>
+<colUsage columnID="11F1213B-5DF4-FCD1-DDBC-9FF640B6803D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2902A0BA-5C1B-EBD8-7091-BA5BCD30ED76" name="Radi_Festival_FK">
+<createdBy>2</createdBy>
+<createdTime>2020-01-28 22:55:32 UTC</createdTime>
+<generatorID>B5E0F20E-81F7-0F5C-4964-799E906FB934</generatorID>
+<ownerDesignName>festival</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="87A8D269-74B8-4656-ECA0-329D40209995"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C582462C-148E-4C1B-658D-5C8C937B4700" name="Radi_Radnik_FK">
+<createdBy>2</createdBy>
+<createdTime>2020-01-28 22:55:32 UTC</createdTime>
+<generatorID>05AF9044-C6FB-715F-7C15-026EEC4915D2</generatorID>
+<ownerDesignName>festival</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="11F1213B-5DF4-FCD1-DDBC-9FF640B6803D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

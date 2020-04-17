@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Nudi2" directorySegmentName="seg_0" id="E48A9967-7297-D03E-33CD-8F4E432B71AD">
+<createdBy>2</createdBy>
+<createdTime>2020-01-28 05:02:52 UTC</createdTime>
+<ownerDesignName>festival</ownerDesignName>
+<engineerTo>
+<item key="F7F15870-3367-99B8-28EF-2189D35119CC" value="true"/>
+</engineerTo>
+<sourcePk>920A0761-9CC4-CCEA-B8BB-0F69545013C2</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>27D247BB-ACDA-F44D-640E-CE86BF7FD5FF</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>259F688D-0F1F-F54C-AB72-6AD497766174</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

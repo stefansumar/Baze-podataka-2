@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="4C9AFADE-0C39-502A-B29A-65EC939F724D" containerWithKeyObject="2015E8D3-EFCC-12AB-3732-0F511B620E5D" localFKIndex="B0F77C3A-F84F-3CC2-B12C-907865805CB3" name="Bina_Zona_FK">
+<createdBy>2</createdBy>
+<createdTime>2020-01-28 22:55:32 UTC</createdTime>
+<generatorID>475F42A2-1479-ED63-0216-720F89714026</generatorID>
+<ownerDesignName>festival</ownerDesignName>
+<referredTableLongName>Zona</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>4543D17B-F775-DDA2-FC43-5008EF4E241A</referredTableID>
+<keyObject>7AA4841A-BAEE-4BAE-8BF8-9BC1972EFD90</keyObject>
+<referredKeyID>7AA4841A-BAEE-4BAE-8BF8-9BC1972EFD90</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>SIF_ZON,Rf_ID_RF,Rf_F_OZN_FES</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="25283207-5652-6774-1967-363808B3300B" name="Pripada">
+<createdBy>2</createdBy>
+<createdTime>2020-01-28 22:55:32 UTC</createdTime>
+<ownerDesignName>festival</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Izvodjac_SIF_IZV" id="AA85CC05-FEAE-E335-D416-AAA17F394880">
+<createdBy>2</createdBy>
+<createdTime>2020-01-28 22:55:32 UTC</createdTime>
+<ownerDesignName>festival</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A9C0A21C-2716-E3B8-75F7-3A9237FD96B9" referredColumn="A8A1E4C5-B4AA-2071-F6DC-0CC8A3EE562B"/>
+</associations>
+</Column>
+<Column name="Zanr_SIF_ZNR" id="79A5F3D1-EF10-0276-3913-ADA60AB20923">
+<createdBy>2</createdBy>
+<createdTime>2020-01-28 22:55:32 UTC</createdTime>
+<ownerDesignName>festival</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="FAC4FB08-4CD4-178C-606D-24C63168B788" referredColumn="344B623B-BF1B-B02A-0AB0-081BD2009026"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="7F4A31F0-0B40-3840-9943-CD2EC09E43AE" name="Pripada_PK">
+<createdBy>2</createdBy>
+<createdTime>2020-01-28 22:55:32 UTC</createdTime>
+<ownerDesignName>festival</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AA85CC05-FEAE-E335-D416-AAA17F394880"/>
+<colUsage columnID="79A5F3D1-EF10-0276-3913-ADA60AB20923"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="BB8A7167-95FD-CF1E-B7B8-52EA7A9908FD" name="Pripada_Izvodjac_FK">
+<createdBy>2</createdBy>
+<createdTime>2020-01-28 22:55:32 UTC</createdTime>
+<generatorID>670E0CB8-1C31-FF59-3A95-118712D07277</generatorID>
+<ownerDesignName>festival</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AA85CC05-FEAE-E335-D416-AAA17F394880"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9B628AF5-F6AC-3C63-D9B0-23C5C01DA8E0" name="Pripada_Zanr_FK">
+<createdBy>2</createdBy>
+<createdTime>2020-01-28 22:55:32 UTC</createdTime>
+<generatorID>670E0CB8-1C31-FF59-3A95-118712D07277</generatorID>
+<ownerDesignName>festival</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="79A5F3D1-EF10-0276-3913-ADA60AB20923"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

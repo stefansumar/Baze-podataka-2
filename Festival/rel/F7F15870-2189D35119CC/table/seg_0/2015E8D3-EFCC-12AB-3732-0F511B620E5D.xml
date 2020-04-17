@@ -1,0 +1,110 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="2015E8D3-EFCC-12AB-3732-0F511B620E5D" name="Bina">
+<createdBy>2</createdBy>
+<createdTime>2020-01-28 22:55:32 UTC</createdTime>
+<generatorID>7EDDE9EC-1949-AA7A-21EF-B5423CDD8E0F</generatorID>
+<ownerDesignName>festival</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="SIF_BIN" id="A5B1112E-90D5-7F45-24BF-74DC9BCA6053">
+<createdBy>2</createdBy>
+<createdTime>2020-01-28 22:55:32 UTC</createdTime>
+<generatorID>5CA32FBA-C50E-A547-EAF6-5F5EA897EA8C</generatorID>
+<ownerDesignName>festival</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="KAP_BIN" id="4A9EA19F-74EF-6953-ACC8-D8CD7FF489DA">
+<createdBy>2</createdBy>
+<createdTime>2020-01-28 22:55:32 UTC</createdTime>
+<generatorID>91082C3A-058B-490F-5E35-522373491E24</generatorID>
+<ownerDesignName>festival</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Zona_SIF_ZON" id="FCD2A67B-B916-0953-FDC2-9025B53512DD">
+<createdBy>2</createdBy>
+<createdTime>2020-01-28 22:55:32 UTC</createdTime>
+<generatorID>EC55D04E-CBF2-4A6B-B61E-75CC2E1C8EDA</generatorID>
+<ownerDesignName>festival</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4C9AFADE-0C39-502A-B29A-65EC939F724D" referredColumn="5A6EBF4A-B604-2388-AFE9-66C48B5D37D5"/>
+</associations>
+</Column>
+<Column name="Zona_ID_RF" id="CC6449D9-9D45-8ECC-B30D-5A5234A01A93">
+<createdBy>2</createdBy>
+<createdTime>2020-01-28 22:55:32 UTC</createdTime>
+<generatorID>A38FD8F9-96A6-F1F5-92F7-6374D8923EDC</generatorID>
+<ownerDesignName>festival</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4C9AFADE-0C39-502A-B29A-65EC939F724D" referredColumn="02DEA67B-5021-391C-233E-8D3DC6464A0B"/>
+</associations>
+</Column>
+<Column name="Zona_OZN_FES" id="BD1E4EA5-54E8-BE29-9D35-A103CB6E56BE">
+<createdBy>2</createdBy>
+<createdTime>2020-01-28 22:55:32 UTC</createdTime>
+<generatorID>D18D9D23-917D-BD7B-2F63-B86BBFC4D069</generatorID>
+<ownerDesignName>festival</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4C9AFADE-0C39-502A-B29A-65EC939F724D" referredColumn="A25D02F9-5336-C1E6-8425-49E1B1869481"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="6BD5F6EA-EBA1-8320-5373-543902ACC4FA" name="Bina_PK">
+<createdBy>2</createdBy>
+<createdTime>2020-01-28 22:55:32 UTC</createdTime>
+<generatorID>9455695E-07CE-2FA8-FBBC-114A7364A71E</generatorID>
+<ownerDesignName>festival</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A5B1112E-90D5-7F45-24BF-74DC9BCA6053"/>
+<colUsage columnID="FCD2A67B-B916-0953-FDC2-9025B53512DD"/>
+<colUsage columnID="CC6449D9-9D45-8ECC-B30D-5A5234A01A93"/>
+<colUsage columnID="BD1E4EA5-54E8-BE29-9D35-A103CB6E56BE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B0F77C3A-F84F-3CC2-B12C-907865805CB3" name="Bina_Zona_FK">
+<createdBy>2</createdBy>
+<createdTime>2020-01-28 22:55:32 UTC</createdTime>
+<generatorID>475F42A2-1479-ED63-0216-720F89714026</generatorID>
+<ownerDesignName>festival</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FCD2A67B-B916-0953-FDC2-9025B53512DD"/>
+<colUsage columnID="CC6449D9-9D45-8ECC-B30D-5A5234A01A93"/>
+<colUsage columnID="BD1E4EA5-54E8-BE29-9D35-A103CB6E56BE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

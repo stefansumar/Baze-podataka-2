@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_35" directorySegmentName="seg_0" id="4E940A23-BFD5-273F-4C90-BFFBD1B5F83F">
+<createdBy>2</createdBy>
+<createdTime>2020-01-28 04:47:45 UTC</createdTime>
+<ownerDesignName>festival</ownerDesignName>
+<engineerTo>
+<item key="F7F15870-3367-99B8-28EF-2189D35119CC" value="true"/>
+</engineerTo>
+<sourcePk>9455695E-07CE-2FA8-FBBC-114A7364A71E</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>7EDDE9EC-1949-AA7A-21EF-B5423CDD8E0F</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>145921F9-DE1E-3D85-3134-A2CC6F8B65DC</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

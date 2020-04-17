@@ -1,0 +1,65 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="461165CC-35C7-63A0-A812-4D1F8CA6355E" name="Redar">
+<createdBy>2</createdBy>
+<createdTime>2020-01-28 21:17:25 UTC</createdTime>
+<ownerDesignName>festival</ownerDesignName>
+<engineerTo>
+<item key="F7F15870-3367-99B8-28EF-2189D35119CC" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<hierarchicalParent>94B350B2-81D1-8C82-1FED-EC26E7D40410</hierarchicalParent>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="SIF_ZON" id="655DEA48-4CB0-A11C-502D-1F2F6D1214D3">
+<createdBy>2</createdBy>
+<createdTime>2020-01-28 21:25:33 UTC</createdTime>
+<generatorID>0D7998B7-F19C-C410-E021-40104E908B68</generatorID>
+<ownerDesignName>festival</ownerDesignName>
+<engineerTo>
+<item key="F7F15870-3367-99B8-28EF-2189D35119CC" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>EC5085A9-0928-7F8E-244C-0926E48DA2D1</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_RF" id="D43F13C0-BDFE-8857-1A4F-DAEF5B8A4DD5">
+<createdBy>2</createdBy>
+<createdTime>2020-01-28 21:25:33 UTC</createdTime>
+<generatorID>0D7998B7-F19C-C410-E021-40104E908B68</generatorID>
+<ownerDesignName>festival</ownerDesignName>
+<engineerTo>
+<item key="F7F15870-3367-99B8-28EF-2189D35119CC" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>698B443F-11F2-887D-F8CC-C00A00B73830</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="OZN_FES" id="2446360F-AC66-353F-FE4E-732579033B14">
+<createdBy>2</createdBy>
+<createdTime>2020-01-28 21:25:33 UTC</createdTime>
+<generatorID>0D7998B7-F19C-C410-E021-40104E908B68</generatorID>
+<ownerDesignName>festival</ownerDesignName>
+<engineerTo>
+<item key="F7F15870-3367-99B8-28EF-2189D35119CC" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>71B04411-0117-7AEC-6F6B-F64EBAA3C6A0</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

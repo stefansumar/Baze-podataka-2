@@ -1,0 +1,204 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="02B359BE-4769-6C2E-B7C4-83EFAC677C58" name="Karta">
+<createdBy>2</createdBy>
+<createdTime>2020-01-28 03:33:47 UTC</createdTime>
+<ownerDesignName>festival</ownerDesignName>
+<engineerTo>
+<item key="F7F15870-3367-99B8-28EF-2189D35119CC" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<generateDiscrimColumn>true</generateDiscrimColumn>
+<discriminatorAttributeID>5E507310-AF2B-38E7-1FEA-28672A09CACB</discriminatorAttributeID>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="SIF_KAR" id="1512202C-9073-3484-D605-8283CB3A8651">
+<createdBy>2</createdBy>
+<createdTime>2020-01-28 03:33:55 UTC</createdTime>
+<ownerDesignName>festival</ownerDesignName>
+<engineerTo>
+<item key="F7F15870-3367-99B8-28EF-2189D35119CC" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DAT_PVK" id="D5234AF1-0C29-CA7A-DC49-C50856955512">
+<createdBy>2</createdBy>
+<createdTime>2020-01-28 03:34:17 UTC</createdTime>
+<ownerDesignName>festival</ownerDesignName>
+<engineerTo>
+<item key="F7F15870-3367-99B8-28EF-2189D35119CC" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DAT_KVK" id="15F2DA19-7586-ADB7-5AAE-4FEE7D928BE0">
+<createdBy>2</createdBy>
+<createdTime>2020-01-28 03:35:35 UTC</createdTime>
+<ownerDesignName>festival</ownerDesignName>
+<engineerTo>
+<item key="F7F15870-3367-99B8-28EF-2189D35119CC" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NAR_PRO" id="DD133ACC-1C94-37ED-0CFB-62DF4534C87D">
+<createdBy>2</createdBy>
+<createdTime>2020-01-28 03:35:46 UTC</createdTime>
+<ownerDesignName>festival</ownerDesignName>
+<engineerTo>
+<item key="F7F15870-3367-99B8-28EF-2189D35119CC" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="BAR_KOD" id="3B695583-9009-B84B-94A9-0195C05AD533">
+<createdBy>2</createdBy>
+<createdTime>2020-01-28 03:36:14 UTC</createdTime>
+<ownerDesignName>festival</ownerDesignName>
+<engineerTo>
+<item key="F7F15870-3367-99B8-28EF-2189D35119CC" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_RF" id="3A82DB78-5EC2-D1C1-5A18-99976018E70E">
+<createdBy>2</createdBy>
+<createdTime>2020-01-28 03:38:53 UTC</createdTime>
+<generatorID>334C869B-CAF0-FFCC-01BB-66C9F6BFB0C5</generatorID>
+<ownerDesignName>festival</ownerDesignName>
+<engineerTo>
+<item key="F7F15870-3367-99B8-28EF-2189D35119CC" value="true"/>
+</engineerTo>
+<referedAttribute>5D389F1E-DF84-1361-40FB-09AB35CBC0DB</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="OZN_FES" id="B084A2BB-DEF6-F34C-A62E-E765DA5B0A4A">
+<createdBy>2</createdBy>
+<createdTime>2020-01-28 03:38:53 UTC</createdTime>
+<generatorID>334C869B-CAF0-FFCC-01BB-66C9F6BFB0C5</generatorID>
+<ownerDesignName>festival</ownerDesignName>
+<engineerTo>
+<item key="F7F15870-3367-99B8-28EF-2189D35119CC" value="true"/>
+</engineerTo>
+<referedAttribute>E62D3199-93AA-F9D5-9D21-B399B8714135</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="JMBG" id="677DC274-F05C-5B3E-CBDE-F68418F52CEE">
+<createdBy>2</createdBy>
+<createdTime>2020-01-28 21:31:28 UTC</createdTime>
+<generatorID>5E913E48-8902-BE40-389D-86DACD2ECA7E</generatorID>
+<ownerDesignName>festival</ownerDesignName>
+<engineerTo>
+<item key="F7F15870-3367-99B8-28EF-2189D35119CC" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>CAB438EB-0E0C-9774-AB61-3556941F18C7</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="TIP_KARTE" id="5E507310-AF2B-38E7-1FEA-28672A09CACB">
+<createdBy>2</createdBy>
+<createdTime>2020-01-28 21:55:10 UTC</createdTime>
+<ownerDesignName>festival</ownerDesignName>
+<engineerTo>
+<item key="F7F15870-3367-99B8-28EF-2189D35119CC" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>11A14EEE-1800-F3D2-5EC7-901FE34F4E7C</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="SIF_KAR1" id="088E5B78-5148-74B5-D108-134356AD8E88">
+<createdBy>2</createdBy>
+<createdTime>2020-01-28 22:37:15 UTC</createdTime>
+<generatorID>6D4C1663-D32A-0986-4871-64923D601459</generatorID>
+<ownerDesignName>festival</ownerDesignName>
+<engineerTo>
+<item key="F7F15870-3367-99B8-28EF-2189D35119CC" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>1512202C-9073-3484-D605-8283CB3A8651</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_RF1" id="02BE4614-06BF-4465-000B-513446A48C7A">
+<createdBy>2</createdBy>
+<createdTime>2020-01-28 22:37:15 UTC</createdTime>
+<generatorID>6D4C1663-D32A-0986-4871-64923D601459</generatorID>
+<ownerDesignName>festival</ownerDesignName>
+<engineerTo>
+<item key="F7F15870-3367-99B8-28EF-2189D35119CC" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>3A82DB78-5EC2-D1C1-5A18-99976018E70E</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="OZN_FES1" id="B678785B-F8F2-338C-35E3-081BCA8E6266">
+<createdBy>2</createdBy>
+<createdTime>2020-01-28 22:37:15 UTC</createdTime>
+<generatorID>6D4C1663-D32A-0986-4871-64923D601459</generatorID>
+<ownerDesignName>festival</ownerDesignName>
+<engineerTo>
+<item key="F7F15870-3367-99B8-28EF-2189D35119CC" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>B084A2BB-DEF6-F34C-A62E-E765DA5B0A4A</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="1A8AF41F-2B55-FA71-3908-724D21BA0EE5" name="Karta PK">
+<createdBy>2</createdBy>
+<createdTime>2020-01-28 03:34:02 UTC</createdTime>
+<ownerDesignName>festival</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="F7F15870-3367-99B8-28EF-2189D35119CC" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>1512202C-9073-3484-D605-8283CB3A8651</attributeRef>
+<attributeRef>3A82DB78-5EC2-D1C1-5A18-99976018E70E</attributeRef>
+<attributeRef>B084A2BB-DEF6-F34C-A62E-E765DA5B0A4A</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
