@@ -1,2 +1,2 @@
 # Baze podataka 2
- Predmetni projekat iz Baza podataka 2.
+Baze podataka 2 - Peredmetni projekat
