@@ -1,2 +1,4 @@
-# Baze podataka 2
-Baze podataka 2 - Peredmetni projekat
+# Baze podataka 2 - Projekat
+
+
+Informacioni sistem za realizaciju muzičkih festivala.
